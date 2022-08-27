@@ -4,20 +4,23 @@ import { Link } from 'react-router-dom';
 
 export const NavigationContainer = styled.div`
     height: 70px;
-    width: 100%;
+    // width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-    background: lightgray;
+    background: ${THEME.DarkGreen};
+
 `
 export const LogoContainer = styled(Link)`
-    height: 100%;
-    width: 70px;
-    padding: 15px;
+    // height: 100%;
+    // width: 70px;
+    padding: 10px;
+    // background: lightgray;
 
     img {
-        height: 40px;
-        width: 40px;
+        // height: 40px;
+        // width: 40px;
+        height: 100%;
     }
 `
 
@@ -32,4 +35,6 @@ export const NavLinksContainer = styled.div`
 export const NavLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 `
