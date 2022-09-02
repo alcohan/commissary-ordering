@@ -7,7 +7,7 @@ align-items: center;
 `
 
 export const ItemsContainer = styled.div`
-width: 80%;
+width: 80vw;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -15,8 +15,9 @@ align-items: center;
 padding: 2px 10px;
 border: 1px solid slategray;
 
-max-height: 80vh;
-overflow: auto;
+height: 60vh;
+overflow-y: auto;
+overflow-x: hidden;
 `
 
 export const ItemElement = styled.div`
@@ -47,7 +48,7 @@ justify-content: space-between;
 `
 
 export const ItemsHeader = styled(ItemElement)`
-width: 80%;
+width: 80vw;
 justify-content: flex-start;
 margin: 10px auto 0;
 padding: 2px 10px;

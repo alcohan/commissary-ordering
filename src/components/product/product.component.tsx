@@ -20,9 +20,9 @@ const ProductCard: FC<ProductItemProps> = ({item}) => {
     const [value, setValue ] = useState(q.toString());
     
     const inputChangeHandler = (id: any , event: ChangeEvent<HTMLInputElement>) => {
-        const qty = parseInt(event.target.value);
-        dispatch(updateItemInCart(cartItems, item, qty))
-        setValue(qty.toString());
+        const strippedInput = event.target.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1'); 
+        dispatch(updateItemInCart(cartItems, item, parseInt(strippedInput) || 0))
+        setValue(strippedInput);
     }
 
     return (
@@ -36,6 +36,8 @@ const ProductCard: FC<ProductItemProps> = ({item}) => {
                 placeholder='qty'
                 onChange={e => inputChangeHandler(item["Item GUID"], e)}
                 value={value}
+                type="text"
+                pattern="\d*"
             ></input>
         </InventoryItem>
     )

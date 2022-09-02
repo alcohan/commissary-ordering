@@ -6,16 +6,19 @@ import { selectCartQuantity, selectCartIsOpen } from '../../store/cart/cart.sele
 import { setCartIsOpen } from '../../store/cart/cart.action';
 
 import {CartIconContainer} from './cart-icon.styles';
+import { useNavigate } from 'react-router-dom';
 
 const CartIcon = ( ) => {
     const cartQuantity = useSelector(selectCartQuantity);
     const cartIsOpen = useSelector(selectCartIsOpen);
     const dispatch = useDispatch();
+    const navigate = useNavigate();
    
     const onClickHandler = () => {
-        if(window.location.pathname==='/checkout')
-            return;
-        dispatch(setCartIsOpen(!cartIsOpen));
+        navigate('/checkout');
+        // if(window.location.pathname==='/checkout')
+        //     return;
+        // dispatch(setCartIsOpen(!cartIsOpen));
     }
 
     return (

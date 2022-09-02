@@ -19,7 +19,6 @@ const OrderEntry = () => {
 
     useEffect( () => {
         dispatch(fetchProductsStart());
-        navigate('/order');
     },[]);
 
     const items = useSelector(selectProducts);
@@ -42,7 +41,7 @@ const OrderEntry = () => {
         <ItemsContainer>
         {isLoading? (<Spinner />) :
                 items.sort((a:any,b:any) => a["Sort Order"] > b["Sort Order"] ? 1:-1)
-                .map((item: any) => (
+                .map((item) => (
                     <ProductCard key={item["Item GUID"]} item={item} />
                     ))
                 

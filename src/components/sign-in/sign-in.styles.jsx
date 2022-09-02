@@ -6,8 +6,8 @@ export const SignInPage = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
-    padding: 70px;
+    // min-height: 80vh;
+    padding: 3rem;
 `
 
 export const SignInContainer = styled.div`
@@ -15,16 +15,16 @@ export const SignInContainer = styled.div`
     flex-direction: column;
     align-items: stretch;
     justify-content: space-around;
-    padding: 60px 30px;
+    padding: 4rem 2rem;
     min-width: 50%;
-    min-height: 10em;
+    // min-height: 10em;
     // background: lightgray;
     border: 2px solid ${THEME.DarkGreen};
     border-radius: 1em;
 `
 
 export const SignInHeader = styled.h2`
-    margin: 10px 0;
+    margin: 1rem 0;
     align-self: center;
 `
 
@@ -33,5 +33,5 @@ export const SignInForm = styled.form`
 
 export const ButtonsContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 `;

@@ -4,6 +4,7 @@ import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
 import SignIn from './components/sign-in/sign-in.component';
 import OrderEntry from './routes/order-entry/order-entry.component';
+import Checkout from './routes/checkout/checkout.component';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path='auth' element={<SignIn />} />
         <Route path='order' element={<OrderEntry />} />
+        <Route path='checkout' element={<Checkout />} />
       </Route>
     </Routes>
   );

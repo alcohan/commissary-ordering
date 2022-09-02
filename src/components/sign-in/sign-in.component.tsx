@@ -69,6 +69,7 @@ const SignIn = () => {
                     >
                         Sign In With Google
                     </Button> */}
+                    <Button>Google</Button>
                     </ButtonsContainer>
                 </form>
             </SignInContainer>
