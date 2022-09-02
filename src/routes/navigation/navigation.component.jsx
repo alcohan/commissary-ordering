@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
 import EvergreensLogo from '../../assets/Logo - Circle - White.png';
 import VeggieIcon from '../../assets/veggie.png';
+import CartIcon from '../../components/cart-icon/cart-icon.component';
 
 import { useDispatch, useSelector } from "react-redux";
 import { selectCurrentUser } from "../../store/user/user.selector";
 import { signOutStart } from "../../store/user/user.action";
 
-import { NavigationContainer, LogoContainer, NavLinksContainer, NavLink} from "./navigation.styles";
+import { NavigationContainer, LogoContainer, NavLinksContainer, NavLink, FooterContainer} from "./navigation.styles";
 
 const Navigation = () => {
     const currentUser = useSelector(selectCurrentUser);
@@ -35,6 +36,7 @@ const Navigation = () => {
                         </>):
                         (<NavLink to='/auth'>Login</NavLink>)
                     }
+                    <CartIcon />
                 </NavLinksContainer>
             </NavigationContainer>
             <Outlet />

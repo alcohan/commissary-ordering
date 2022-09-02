@@ -11,6 +11,7 @@ export const NavigationContainer = styled.div`
     background: ${THEME.DarkGreen};
 
 `
+
 export const LogoContainer = styled(Link)`
     // height: 100%;
     // width: 70px;

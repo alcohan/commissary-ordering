@@ -24,7 +24,11 @@ export const setCartIsOpen = withMatcher((isOpen = false): SetCartIsOpen => {
 export const setCartContents = withMatcher(
   (newCartItem: cartItem[]) => {
     return createAction(CART_ACTION_TYPES.SET_CART_CONTENTS, newCartItem);
-  });
+});
+
+export const clearCart = withMatcher( () => {
+  return createAction(CART_ACTION_TYPES.SET_CART_CONTENTS,[]);
+});
 
 const addCartItem = (cartItem: cartItem[] = [], productToAdd: Product): cartItem[] => {
   //find if cartItem contains productToAdd

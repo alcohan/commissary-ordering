@@ -7,21 +7,31 @@ import { InventoryItemContainer, ItemsContainer, ItemsHeader, OrderPage } from "
 import { fetchProductsStart } from "../../store/products/products.action";
 import { Product } from "../../store/products/products.types";
 import ProductCard from "../../components/product/product.component";
+import Button from "../../components/button/button.component";
+import { clearCart } from "../../store/cart/cart.action";
+import { useNavigate } from "react-router-dom";
 
 // let items = require('../../data/items.json')
 
 const OrderEntry = () => {
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     useEffect( () => {
         dispatch(fetchProductsStart());
+        navigate('/order');
     },[]);
 
     const items = useSelector(selectProducts);
     const isLoading = useSelector(selectProductsIsLoading);
 
+    const buttonHandler = () => {
+        dispatch(clearCart());
+    }
+
     return(
         <OrderPage>
+            <Button onClick={buttonHandler}>Clear cart</Button>
         <ItemsHeader>
             <span className = 'name'>Name</span>
             <span className = 'price'>Price</span>

@@ -1,4 +1,4 @@
-import { selectCartItems } from '../../store/cart/cart.selector';
+import { selectCartItems, selectCartQuantity, selectSpecificCartItem } from '../../store/cart/cart.selector';
 import { addItemToCart, updateItemInCart } from '../../store/cart/cart.action';
 import { useSelector, useDispatch } from 'react-redux';
 import { InventoryItem } from './product.styles';
@@ -6,6 +6,7 @@ import { Product } from '../../store/products/products.types';
 import { ChangeEvent, useState } from 'react';
 
 import { FC } from 'react';
+import { RootState } from '../../store/store';
 
 export type ProductItemProps = {
     item: Product;
@@ -13,8 +14,10 @@ export type ProductItemProps = {
 
 const ProductCard: FC<ProductItemProps> = ({item}) => {
     const dispatch = useDispatch();
-    const cartItems = useSelector(selectCartItems);
-    const [value, setValue ] = useState('');
+    const cartItems: any = useSelector(selectCartItems);
+    const q = useSelector((state:RootState) => selectSpecificCartItem(state, item));
+    // console.log(q)
+    const [value, setValue ] = useState(q.toString());
     
     const inputChangeHandler = (id: any , event: ChangeEvent<HTMLInputElement>) => {
         const qty = parseInt(event.target.value);
