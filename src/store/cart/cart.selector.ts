@@ -27,7 +27,7 @@ export const selectCartQuantity = createSelector(
 
 export const selectCartSubtotal = createSelector(
     [selectCartItems],
-    (cartItems) => cartItems.reduce( (total:number, item:cartItem) => total+item["List Price (WA)"]*item.quantity, 0)
+    (cartItems) => cartItems.reduce( (total:number, item:cartItem) => total+item["List Price (WA)"], 0)
 );
 
 export const selectSpecificCartItem = createSelector(

@@ -8,6 +8,7 @@ import {
 } from "../../store/cart/cart.selector";
 
 import { cartItem } from "../../store/cart/cart.types";
+import { CheckoutContainer } from "./checkout.styles";
 
 const Checkout = () => {
     const cart = useSelector(selectCartItems);
@@ -16,12 +17,12 @@ const Checkout = () => {
     return (
         <>
             <h1>Checkout</h1>
-            <div>
-                {cart.sort((a:any,b:any) => a["Sort Order"] > b["Sort Order"] ? 1:-1)
+            <CheckoutContainer>
+                {cart.sort((a:cartItem,b:cartItem) => a["Sort Order"] > b["Sort Order"] ? 1:-1)
                 .map((item) => (
                     <CheckoutCard key={item["Item GUID"]} item={item} />
                     ))}
-            </div>
+            </CheckoutContainer>
             <div>Total: ${total}</div>
         </>
     )

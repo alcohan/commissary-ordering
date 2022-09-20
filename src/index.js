@@ -5,7 +5,8 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
-
+import 'bootstrap/dist/js/bootstrap.bundle';
+import './custom.scss';
 import './index.css';
 import App from './App';
 import { store, persistor } from './store/store';
