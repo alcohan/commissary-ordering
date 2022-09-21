@@ -1,6 +1,6 @@
 import '../../App.css';
-import logo from '../../assets/logo.png';
-// import logo from '../../logo.svg';
+// import logo from '../../assets/logo.png';
+import logo from '../../assets/eg-logo-color.svg';
 
 const Home = () => {
     return (

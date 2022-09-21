@@ -19,12 +19,14 @@ import Button from '../../components/button/button.component'
 import { clearCart } from '../../store/cart/cart.action'
 import { useNavigate } from 'react-router-dom'
 import ProductTableRow from '../../components/product/product-table.component'
+import { Alert, Container, Row, Table, Col, InputGroup, Form } from 'react-bootstrap'
 
 // let items = require('../../data/items.json')
 
 const OrderEntry = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     dispatch(fetchProductsStart())
@@ -38,55 +40,66 @@ const OrderEntry = () => {
   }
 
   return (
-    <OrderPage>
-      {/* <ItemsHeader>
-            <span className = 'name'>Name</span>
-            <span className = 'price'>Price</span>
-            <span className = 'packsize'>Pack</span>
-            <span className = 'category'>Category</span>
-            <span className = 'qty'>Order</span>
-            </ItemsHeader>
-            <ItemsContainer>
-            {isLoading? (<Spinner />) :
-            items.sort((a:any,b:any) => a["Sort Order"] > b["Sort Order"] ? 1:-1)
-            .map((item) => (
-                <ProductCard key={item["Item GUID"]} item={item} />
-                ))
-                
-            }
-        </ItemsContainer> */}
-      <div className="container p-3 m-1">
-        <button className="btn btn-primary" onClick={buttonHandler}>
-          Clear cart
-        </button>
-        <div className="container border border-primary rounded p-3">
-          <table className="table table-sm table-hover ">
-            <thead className="table-primary">
-              <th scope="col">Name</th>
-              <th scope="col">Price</th>
-              <th scope="col">Pack</th>
-              <th scope="col">Cat</th>
-              <th scope="col" className="col-xs-1">
-                Order
-              </th>
-            </thead>
-            <tbody>
+    <>
+        <Container>
+            {!show ? null : (<Row>
+                <Alert dismissible variant="danger" onClose={() => setShow(false)}>
+                <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
+                <p>
+                    Change this and that and try again.
+                </p>
+                </Alert>
+            </Row>)}
+        </Container>
+    
+      <Container className="d-grid p-3">
+        <Row>
+
+            <Col>
+                <InputGroup className="mb-3">
+                <InputGroup.Text id="inputGroup-sizing-default">
+                Search
+                </InputGroup.Text>
+                <Form.Control
+                aria-label="Default"
+                aria-describedby="inputGroup-sizing-default"
+                />
+                </InputGroup>
+            </Col>
+            <Col className="">
+                <button className="btn btn-primary" onClick={buttonHandler}>
+                Clear cart
+                </button>
+            </Col>
+        </Row>
+        <Row className="border border-primary rounded m-3">
+          <Col>
+              {/* end margin 5 aligns the header with content (scrollbar offset) */}
+            <Row className="p-3 pe-5 bg-primary text-white ">
+                  <Col scope="col" className="col-6">Name</Col>
+                  <Col scope="col" className="col-2">Price</Col>
+                  <Col scope="col" className="col-2">Pack</Col>
+                  <Col scope="col" className="col-1">Cat</Col>
+                  <Col scope="col" className="col-1">Order</Col>
+            </Row>
+            <Row className="p-3" style={{height:"65vh", overflow:"auto"}}>
               {isLoading ? (
                 <Spinner />
               ) : (
                 items
-                  .sort((a: any, b: any) =>
+                  .sort((a, b) =>
                     a['Sort Order'] > b['Sort Order'] ? 1 : -1,
                   )
                   .map((item) => (
                     <ProductTableRow key={item['Item GUID']} item={item} />
                   ))
               )}
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </OrderPage>
+            </Row>
+          </Col>
+        </Row>
+        
+      </Container>
+    </>
   )
 }
 

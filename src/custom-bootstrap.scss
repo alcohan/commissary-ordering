@@ -2,7 +2,13 @@
 // $body-bg: #000;
 $theme-colors: (
     "primary": #0E6C37,
+    "danger":red,
 );
+
+// table classes
+// .qty {
+//     max-width: 100%;
+// }
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';

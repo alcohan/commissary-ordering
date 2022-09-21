@@ -8,6 +8,7 @@ import { FC } from 'react';
 import { RootState } from '../../store/store';
 
 import './product-table.styles.scss';
+import { Row, Col } from 'react-bootstrap';
 
 export type ProductItemProps = {
     item: Product;
@@ -27,13 +28,13 @@ const ProductTableRow: FC<ProductItemProps> = ({item}) => {
     }
 
     return (
-        <tr>
-            <td scope="row" className='name'>{item["Item Name"]}</td>
-            <td className='price'>${item["List Price (WA)"]}</td>
-            <td className='packsize'>{item["Pack Size"]}</td>
-            <td className='category'>{item["Category Code"]}</td>
-            <td> 
-                <input
+        <Row className="p-1 border-bottom">
+            <Col className="col-6" scope="row" >{item["Item Name"]}</Col>
+            <Col className="col-2" >${item["List Price (WA)"]}</Col>
+            <Col className="col-2" >{item["Pack Size"]}</Col>
+            <Col className="col-1" >{item["Category Code"]}</Col>
+            <Col className="col-1" style={{padding:"0"}}> 
+                <input style={{width:"100%"}}
                     className='qty'
                     placeholder='qty'
                     onChange={e => inputChangeHandler(item["Item GUID"], e)}
@@ -41,8 +42,8 @@ const ProductTableRow: FC<ProductItemProps> = ({item}) => {
                     type="text"
                     pattern="\d*"
                 />
-            </td>
-        </tr>
+            </Col>
+        </Row>
     )
 }
 
