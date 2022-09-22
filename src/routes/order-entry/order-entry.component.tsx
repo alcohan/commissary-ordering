@@ -52,11 +52,11 @@ const OrderEntry = () => {
             </Row>)}
         </Container>
     
-      <Container className="d-grid p-3">
-        <Row>
+      <Container className="p-lg-3">
+        <Row className="m-md-3 p-1 text-end">
 
             <Col>
-                <InputGroup className="mb-3">
+                <InputGroup className="">
                 <InputGroup.Text id="inputGroup-sizing-default">
                 Search
                 </InputGroup.Text>
@@ -72,17 +72,17 @@ const OrderEntry = () => {
                 </button>
             </Col>
         </Row>
-        <Row className="border border-primary rounded m-3">
+        <Row className="border border-primary rounded mt-3 m-md-3">
           <Col>
               {/* end margin 5 aligns the header with content (scrollbar offset) */}
-            <Row className="p-3 pe-5 bg-primary text-white ">
-                  <Col scope="col" className="col-6">Name</Col>
+            <Row className="p-2 pe-5 bg-primary text-white ">
+                  <Col scope="col" className="">Name</Col>
                   <Col scope="col" className="col-2">Price</Col>
                   <Col scope="col" className="col-2">Pack</Col>
                   <Col scope="col" className="col-1">Cat</Col>
                   <Col scope="col" className="col-1">Order</Col>
             </Row>
-            <Row className="p-3" style={{height:"65vh", overflow:"auto"}}>
+            <Container fluid className="py-1" style={{height:"65vh", overflow:"auto"}}>
               {isLoading ? (
                 <Spinner />
               ) : (
@@ -94,7 +94,7 @@ const OrderEntry = () => {
                     <ProductTableRow key={item['Item GUID']} item={item} />
                   ))
               )}
-            </Row>
+            </Container>
           </Col>
         </Row>
         
