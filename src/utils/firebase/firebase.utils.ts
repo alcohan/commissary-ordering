@@ -22,17 +22,19 @@ import {
   getDocs,
   QueryDocumentSnapshot,
 } from "firebase/firestore";
+import { Product } from "../../store/products/products.types";
 
 // import { Category } from "../../store/categories/category.types";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyANo9zhgq-SfFjDphN2bfsDuk9ulKTm-vU",
-  authDomain: "crwn-clothing-db-612fd.firebaseapp.com",
-  projectId: "crwn-clothing-db-612fd",
-  storageBucket: "crwn-clothing-db-612fd.appspot.com",
-  messagingSenderId: "121612090570",
-  appId: "1:121612090570:web:a765091f8b648867d08833",
+  apiKey: "AIzaSyDoM7BOzEXI6ZhCj736IBAuKXz8FjXOO3E",
+  authDomain: "evergreens-commissary.firebaseapp.com",
+  projectId: "evergreens-commissary",
+  storageBucket: "evergreens-commissary.appspot.com",
+  messagingSenderId: "942574374948",
+  appId: "1:942574374948:web:25786ba0bc1b3876ff08b1",
+  measurementId: "G-N3CK5SZS3R"
 };
 
 // Initialize Firebase
@@ -51,7 +53,7 @@ export const signInWithGoogleRedirect = () =>
 export const db = getFirestore();
 
 export type ObjectToAdd = {
-  title: string;
+  "Item GUID": string;
 };
 
 // typically this wouldn't be front-end.
@@ -63,33 +65,24 @@ export const addCollectionAndDocuments = async <T extends ObjectToAdd>(
   const batch = writeBatch(db);
 
   objectsToAdd.forEach((object) => {
-    const docRef = doc(collectionReference, object.title.toLowerCase());
+    const docRef = doc(collectionReference, object["Item GUID"]);
     batch.set(docRef, object);
   });
   await batch.commit();
   console.log("done");
 };
 
-// export const getCategoriesAndDocuments = async (
-//   collectionName: string
-// ): Promise<Category[]> => {
-//   const collectionRef = collection(db, collectionName);
-//   const q = query(collectionRef);
+export const getProductsAndDocuments = async (
+  collectionName: string
+): Promise<Product[]> => {
+  const collectionRef = collection(db, collectionName);
+  const q = query(collectionRef);
 
-//   const querySnapshot = await getDocs(q);
-//   return querySnapshot.docs.map(
-//     (docSnapshot) => docSnapshot.data() as Category
-//   );
-
-  // old code from when we put business logic here. Now everything into reducer
-  // .reduce( (acc, docSnapshot) => {
-  //     const { title, items } = docSnapshot.data();
-  //     acc[title.toLowerCase()] = items;
-  //     return acc;
-  // }, {});
-
-  // return categoryMap;
-// };
+  const querySnapshot = await getDocs(q);
+  return querySnapshot.docs.map(
+    (docSnapshot) => docSnapshot.data() as Product
+  );
+};
 
 export type AdditionalInformation = {
     displayName?: string;

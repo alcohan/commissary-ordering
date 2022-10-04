@@ -22,12 +22,18 @@ export const selectCartIsOpen = createSelector(
 
 export const selectCartQuantity = createSelector(
     [selectCartItems],
-    (cartItems) => cartItems.reduce( (previousValue:number, item:cartItem) => previousValue+item.quantity, 0)
+    (cartItems) => cartItems.reduce( 
+        (previousValue:number, item:cartItem) => previousValue+item.quantity, 
+        0
+    )
 );
 
 export const selectCartSubtotal = createSelector(
     [selectCartItems],
-    (cartItems) => cartItems.reduce( (total:number, item:cartItem) => total+item["List Price (WA)"], 0)
+    (cartItems) => cartItems.reduce( 
+        (total:number, item:cartItem) => total+item["List Price (WA)"], 
+        0
+    ).toFixed(2)
 );
 
 export const selectSpecificCartItem = createSelector(

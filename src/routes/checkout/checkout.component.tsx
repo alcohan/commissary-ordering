@@ -9,10 +9,18 @@ import {
 
 import { cartItem } from "../../store/cart/cart.types";
 import { CheckoutContainer } from "./checkout.styles";
+import { Button, Form, FormControl, InputGroup } from "react-bootstrap";
+import { FormEvent } from "react";
 
 const Checkout = () => {
     const cart = useSelector(selectCartItems);
     const total = useSelector(selectCartSubtotal);
+
+    const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        console.log(event);
+        alert("This doesn't do anything yet");
+    }
 
     return (
         <>
@@ -24,6 +32,14 @@ const Checkout = () => {
                     ))}
             </CheckoutContainer>
             <div>Total: ${total}</div>
+
+            <Form onSubmit={handleSubmit}>
+                <InputGroup>
+                    <InputGroup.Text>Enter a Comment</InputGroup.Text>
+                    <FormControl type="text" ></FormControl>
+                    <Button type="submit">Submit</Button>
+                </InputGroup>
+            </Form>
         </>
     )
 }

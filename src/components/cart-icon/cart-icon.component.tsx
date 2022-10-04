@@ -15,7 +15,7 @@ const CartIcon = ( ) => {
     const navigate = useNavigate();
    
     const onClickHandler = () => {
-        navigate('/checkout');
+        // navigate('/checkout');
         // if(window.location.pathname==='/checkout')
         //     return;
         // dispatch(setCartIsOpen(!cartIsOpen));

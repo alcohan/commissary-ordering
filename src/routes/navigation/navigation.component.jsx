@@ -36,10 +36,11 @@ const Navigation = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto mb-2 mb-md-0">
               <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
-              <LinkContainer to="/order"><Nav.Link>Order</Nav.Link></LinkContainer>
               <LinkContainer to="/auth"><Nav.Link>Auth</Nav.Link></LinkContainer>
+              <LinkContainer to="/order"><Nav.Link>Order</Nav.Link></LinkContainer>
               <LinkContainer to="/checkout"><Nav.Link>Cart</Nav.Link></LinkContainer>
-              <LinkContainer to="/nothing" disabled><Nav.Link>Disabled</Nav.Link></LinkContainer>
+              <LinkContainer to="/items"><Nav.Link>Edit Items</Nav.Link></LinkContainer>
+              {/* <LinkContainer to="/nothing" disabled><Nav.Link>Disabled</Nav.Link></LinkContainer>
               <Dropdown>
                 <Dropdown.Toggle id="dropdown-basic" as={Nav.Link}>
                   Dropdown
@@ -48,7 +49,7 @@ const Navigation = () => {
                   <Dropdown.Item>Item1</Dropdown.Item>
                   <Dropdown.Item>Item2</Dropdown.Item>
                 </Dropdown.Menu>
-              </Dropdown>
+              </Dropdown> */}
             </Nav>
             <CartIcon />
           </Navbar.Collapse>

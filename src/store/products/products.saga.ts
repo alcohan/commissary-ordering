@@ -1,19 +1,20 @@
 import { takeLatest, all, call, put } from 'typed-redux-saga';
 
-// import { getProductsAndDocuments} from '../../utils/firebase/firebase.utils';
+import { getProductsAndDocuments} from '../../utils/firebase/firebase.utils';
 
 import { fetchProductsSuccess, fetchProductsFailed } from './products.action';
 
 import { Product, PRODUCTS_ACTION_TYPES } from './products.types';
 
-const getProductsAndDocuments = () => {
-    let items: Product[] = require('../../data/items.json');
-    return items;
-}
+// manually use local json data
+// const getProductsAndDocuments = () => {
+//     let items: Product[] = require('../../data/items.json');
+//     return items;
+// }
 
 export function* fetchProductsAsync() {
     try {
-        const productsArray = yield* call( getProductsAndDocuments );
+        const productsArray = yield* call( getProductsAndDocuments, "products" );
         yield* put ( fetchProductsSuccess( productsArray ));
     } catch (error) {
         yield* put ( fetchProductsFailed( error as Error ));

@@ -6,48 +6,59 @@ import {
   selectProductsIsLoading,
 } from '../../store/products/products.selector'
 import Spinner from '../../components/spinner/spinner.component'
-import {
-  InventoryItemContainer,
-  ItemsContainer,
-  ItemsHeader,
-  OrderPage,
-} from './order-entry.styles'
 import { fetchProductsStart } from '../../store/products/products.action'
-import { Product } from '../../store/products/products.types'
-import ProductCard from '../../components/product/product.component'
-import Button from '../../components/button/button.component'
 import { clearCart } from '../../store/cart/cart.action'
 import { useNavigate } from 'react-router-dom'
 import ProductTableRow from '../../components/product/product-table.component'
-import { Alert, Container, Row, Table, Col, InputGroup, Form } from 'react-bootstrap'
+import { Alert, Container, Row, Table, Col, InputGroup, Form, Button } from 'react-bootstrap'
+import { addCollectionAndDocuments } from '../../utils/firebase/firebase.utils'
 
 // let items = require('../../data/items.json')
 
 const OrderEntry = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
-  const [show, setShow] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
+  const [searchString, setSearchString] = useState('');
 
   useEffect(() => {
     dispatch(fetchProductsStart())
   }, [])
 
   const items = useSelector(selectProducts)
+  const [filteredItems, setFilteredItems] = useState(items)
   const isLoading = useSelector(selectProductsIsLoading)
 
+  useEffect(() => {
+    const newFilteredItems = items.filter( (item) => {
+      return item['Item Name'].toLocaleLowerCase().includes(searchString);
+    });
+    setFilteredItems(newFilteredItems);
+  }, [items,searchString]);
+
   const buttonHandler = () => {
-    dispatch(clearCart())
+    dispatch(clearCart());
+    setShowAlert(true);
   }
 
+  const searchBoxHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(event);
+    const searchString = event.target.value.toLocaleLowerCase();
+    setSearchString(searchString);
+  }
+
+  // const uploadHandler = () => {
+  //   addCollectionAndDocuments("products",items);
+  // }
+  
   return (
     <>
+      {/* <Button onClick={uploadHandler}>Upload!</Button> */}
+
         <Container>
-            {!show ? null : (<Row>
-                <Alert dismissible variant="danger" onClose={() => setShow(false)}>
-                <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
-                <p>
-                    Change this and that and try again.
-                </p>
+            {!showAlert ? null : (<Row>
+                <Alert dismissible variant="primary" onClose={() => setShowAlert(false)}>
+                <Alert.Heading>Cart Cleared</Alert.Heading>
                 </Alert>
             </Row>)}
         </Container>
@@ -63,6 +74,7 @@ const OrderEntry = () => {
                 <Form.Control
                 aria-label="Default"
                 aria-describedby="inputGroup-sizing-default"
+                onChange={searchBoxHandler}
                 />
                 </InputGroup>
             </Col>
@@ -86,7 +98,7 @@ const OrderEntry = () => {
               {isLoading ? (
                 <Spinner />
               ) : (
-                items
+                filteredItems
                   .sort((a, b) =>
                     a['Sort Order'] > b['Sort Order'] ? 1 : -1,
                   )
