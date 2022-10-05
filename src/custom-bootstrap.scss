@@ -3,12 +3,14 @@
 $theme-colors: (
     "primary": #0E6C37,
     "danger":red,
+    "secondary": gray,
 );
-
-// table classes
-// .qty {
-//     max-width: 100%;
-// }
-
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+    
+
+// Add class overrides
+.form-check-input:checked {
+    background-color: #0E6C37;
+    border-color: darkgreen;
+}
