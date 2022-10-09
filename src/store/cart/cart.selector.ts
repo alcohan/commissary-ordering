@@ -33,7 +33,7 @@ export const selectCartSubtotal = createSelector(
     (cartItems) => cartItems.reduce( 
         (total:number, item:cartItem) => total+item["List Price (WA)"], 
         0
-    ).toFixed(2)
+    )//.toFixed(2)
 );
 
 export const selectSpecificCartItem = createSelector(

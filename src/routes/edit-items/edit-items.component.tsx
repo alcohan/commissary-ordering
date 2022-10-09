@@ -22,7 +22,8 @@ const EditItems = () => {
     const handleFormChange = (event: ChangeEvent<HTMLInputElement>) => {
         // console.log(event.target)
         const { name, value} = event.target;
-        setSelectedItem({...selectedItem, [name]:value})
+        const newValues = {...selectedItem, [name]:value} as Product;
+        setSelectedItem(newValues);
         // console.log(selectedItem)
     }
     const handleToggle = (e: ChangeEvent) => setSelectedItem({...selectedItem,"Enabled":!selectedItem.Enabled});
@@ -47,11 +48,14 @@ const EditItems = () => {
                 //style={{height:"", overflow:"auto"}}
                 >
                 <Row>
-                    <Col className="col-4">
+                    <Col className="col-12 col-md-4">
                     <ListGroup>
                             {
-                            items.sort((a, b) =>
-                                a['Sort Order'] > b['Sort Order'] ? 1 : -1,
+                            items.sort((a, b) =>{
+                                if(a['Sort Order'] === b['Sort Order'])
+                                    return a['Item Name'] > b['Item Name'] ? 1 : -1;
+                                else return a['Sort Order'] > b['Sort Order'] ? 1 : -1;
+                            },
                                 ).map(
                                 (item) =>
                                     <ListGroup.Item 
