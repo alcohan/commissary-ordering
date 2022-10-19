@@ -7,6 +7,7 @@ import Auth from './routes/authentication/auth.component';
 import OrderEntry from './routes/order-entry/order-entry.component';
 import Checkout from './routes/checkout/checkout.component';
 import EditItems from './routes/edit-items/edit-items.component';
+import EditStores from './routes/edit-stores/edit-stores.component';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='order' element={<OrderEntry />} />
         <Route path='checkout' element={<Checkout />} />
         <Route path='items' element={<EditItems />} />
+        <Route path='stores' element={<EditStores />} />
       </Route>
     </Routes>
   );

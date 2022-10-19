@@ -25,7 +25,6 @@ const OrderEntry = () => {
 
   useEffect(() => {
     dispatch(fetchProductsStart())
-    dispatch(fetchCustomersStart())
   }, [])
 
   const items = useSelector(selectEnabledProducts)

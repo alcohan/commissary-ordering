@@ -16,7 +16,7 @@ export type Commissary = {
 
 export type Customer = {
     "Store GUID": string,
-    "Store": string,
+    "Store Code": string,
     "Store Name": string,
     "Commissary ID": string,
     "DeliveryDates": number[]

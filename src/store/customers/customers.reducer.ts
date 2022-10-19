@@ -15,7 +15,7 @@ export type CustomersState = {
 
 const TEST_CUSTOMER: Customer = {
     "Store GUID": "B9A15BDB-4773-EC11-8943-000D3A35254B",
-    "Store": "GB-007",
+    "Store Code": "GB-007",
     "Store Name": "Hassalo",
     "Commissary ID": "522200001",
     "DeliveryDates": [2, 5]
