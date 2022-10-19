@@ -2,6 +2,7 @@ import { ChangeEvent, useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 import {
+  selectEnabledProducts,
   selectProducts,
   selectProductsIsLoading,
 } from '../../store/products/products.selector'
@@ -25,7 +26,7 @@ const OrderEntry = () => {
     dispatch(fetchProductsStart())
   }, [])
 
-  const items = useSelector(selectProducts)
+  const items = useSelector(selectEnabledProducts)
   const [filteredItems, setFilteredItems] = useState(items)
   const isLoading = useSelector(selectProductsIsLoading)
 

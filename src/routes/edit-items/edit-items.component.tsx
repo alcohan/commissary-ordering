@@ -21,8 +21,16 @@ const EditItems = () => {
 
     const handleFormChange = (event: ChangeEvent<HTMLInputElement>) => {
         // console.log(event.target)
-        const { name, value} = event.target;
-        const newValues = {...selectedItem, [name]:value} as Product;
+        const { name, value, type } = event.target;
+
+        let valueToReplace;
+        
+        if (type==="number") 
+           valueToReplace = Number(value);
+        else 
+            valueToReplace = value;
+
+        const newValues = {...selectedItem, [name]:valueToReplace} as Product;
         setSelectedItem(newValues);
         // console.log(selectedItem)
     }
@@ -35,6 +43,7 @@ const EditItems = () => {
 
     const formSubmitHandler = (e:FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        // console.log(selectedItem)
         dispatch(updateProductStart(selectedItem));
     }
 
