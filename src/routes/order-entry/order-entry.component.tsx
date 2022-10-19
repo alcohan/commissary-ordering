@@ -13,6 +13,7 @@ import { useNavigate } from 'react-router-dom'
 import ProductTableRow from '../../components/product/product-table.component'
 import { Alert, Container, Row, Table, Col, InputGroup, Form, Button } from 'react-bootstrap'
 import { addCollectionAndDocuments } from '../../utils/firebase/firebase.utils'
+import { fetchCustomersStart } from '../../store/customers/customers.action'
 
 // let items = require('../../data/items.json')
 
@@ -24,6 +25,7 @@ const OrderEntry = () => {
 
   useEffect(() => {
     dispatch(fetchProductsStart())
+    dispatch(fetchCustomersStart())
   }, [])
 
   const items = useSelector(selectEnabledProducts)
