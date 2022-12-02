@@ -72,6 +72,19 @@ export const addCollectionAndDocuments = async <T extends ObjectToAdd>(
   console.log("done");
 };
 
+export const updateProductDocument = async (
+  collectionKey: string, 
+  productToUpdate:Product
+  ) => {
+  console.log("updating product", productToUpdate);
+  const collectionRef = collection(db,collectionKey);
+  const batch = writeBatch(db);
+  const docRef = doc(collectionRef,productToUpdate["Item GUID"]);
+  batch.set(docRef,productToUpdate);
+  await batch.commit();
+  console.log("done");
+}
+
 export const getProductsAndDocuments = async (
   collectionName: string
 ): Promise<Product[]> => {

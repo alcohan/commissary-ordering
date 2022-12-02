@@ -40,6 +40,10 @@ const Navigation = () => {
               <LinkContainer to="/order"><Nav.Link>Order</Nav.Link></LinkContainer>
               <LinkContainer to="/checkout"><Nav.Link>Cart</Nav.Link></LinkContainer>
               <LinkContainer to="/items"><Nav.Link>Edit Items</Nav.Link></LinkContainer>
+              <LinkContainer to="/stores"><Nav.Link>Edit Stores</Nav.Link></LinkContainer>
+              {currentUser ? (
+                <LinkContainer to="/"><Nav.Link>Signed in as {currentUser.displayName}</Nav.Link></LinkContainer>
+              ):null}
               {/* <LinkContainer to="/nothing" disabled><Nav.Link>Disabled</Nav.Link></LinkContainer>
               <Dropdown>
                 <Dropdown.Toggle id="dropdown-basic" as={Nav.Link}>

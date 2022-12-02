@@ -1,8 +1,8 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import { Container, ListGroup, Badge, Col, Row, Form, InputGroup, Button } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { Input } from "../../components/form-input/form-input.styles";
-import { fetchProductsStart } from "../../store/products/products.action";
+import { fetchProductsStart, updateProductStart } from "../../store/products/products.action";
 import { selectProducts } from "../../store/products/products.selector";
 
 import { Product } from "../../store/products/products.types";
@@ -20,10 +20,19 @@ const EditItems = () => {
     }
 
     const handleFormChange = (event: ChangeEvent<HTMLInputElement>) => {
-        console.log(event.target)
-        const { name, value} = event.target;
-        setSelectedItem({...selectedItem, [name]:value})
-        console.log(selectedItem)
+        // console.log(event.target)
+        const { name, value, type } = event.target;
+
+        let valueToReplace;
+        
+        if (type==="number") 
+           valueToReplace = Number(value);
+        else 
+            valueToReplace = value;
+
+        const newValues = {...selectedItem, [name]:valueToReplace} as Product;
+        setSelectedItem(newValues);
+        // console.log(selectedItem)
     }
     const handleToggle = (e: ChangeEvent) => setSelectedItem({...selectedItem,"Enabled":!selectedItem.Enabled});
 
@@ -32,19 +41,30 @@ const EditItems = () => {
         return(selectedItem === currentlySelected)
     }
 
+    const formSubmitHandler = (e:FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        // console.log(selectedItem)
+        dispatch(updateProductStart(selectedItem));
+    }
+
     useEffect(() => {
         dispatch(fetchProductsStart())
       }, [])
 
     return (
         <>
-            <Container style={{height:"", overflow:"auto"}}>
+            <Container fluid 
+                //style={{height:"", overflow:"auto"}}
+                >
                 <Row>
-                    <Col>
+                    <Col className="col-12 col-md-4">
                     <ListGroup>
                             {
-                            items.sort((a, b) =>
-                                a['Sort Order'] > b['Sort Order'] ? 1 : -1,
+                            items.sort((a, b) =>{
+                                if(a['Sort Order'] === b['Sort Order'])
+                                    return a['Item Name'] > b['Item Name'] ? 1 : -1;
+                                else return a['Sort Order'] > b['Sort Order'] ? 1 : -1;
+                            },
                                 ).map(
                                 (item) =>
                                     <ListGroup.Item 
@@ -64,7 +84,8 @@ const EditItems = () => {
                     </Col>
                     <Col>
                         {selectedItem["Item GUID"]? (
-                            <Form>
+                            <Form
+                                onSubmit={formSubmitHandler}>
                                     <InputGroup>
                                         <Form.Check
                                             onChange={handleToggle}
@@ -138,9 +159,8 @@ const EditItems = () => {
                                 />
                                 <Form.Group as={Row}>
                                     <Col className="mt-4 text-end">
-                                        <Button
+                                        <Button type='submit'
                                             disabled={checkForChanges()}
-                                            onClick={() => alert("this doesn't do anything yet")}
                                         >Save Changes</Button>
                                     </Col>
                                 </Form.Group>

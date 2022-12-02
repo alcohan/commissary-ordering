@@ -1,0 +1,114 @@
+[
+    {
+      "Store GUID": "B9A15BDB-4773-EC11-8943-000D3A35254B",
+      "Store Code": "GB-007",
+      "Store Name": "Hassalo",
+      "Commissary ID": "522200001",
+      "DeliveryDates": [2,5]
+    },
+    {
+      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+      "Store Code": "OR-001",
+      "Store Name": "Hillsboro",
+      "Commissary ID": "522200001",
+      "DeliveryDates": [2,5]
+    },
+    {
+      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+      "Store Code": "OR-002",
+      "Store Name": "Cedar Hills",
+      "Commissary ID": "522200001",
+      "DeliveryDates": [2,5]
+    },
+    {
+      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+      "Store Code": "OR-003",
+      "Store Name": "PDX Airport",
+      "Commissary ID": "522200001",
+      "DeliveryDates": [2,5]
+    },
+    {
+      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+      "Store Code": "WA-002",
+      "Store Name": "6th & Olive",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [2,4]
+    },
+    {
+      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+      "Store Code": "WA-003",
+      "Store Name": "University Village",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [1,3,5]
+    },
+    {
+      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+      "Store Code": "WA-004",
+      "Store Name": "6th & Lenora",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [2,4]
+    },
+    {
+      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-005",
+      "Store Name": "Thomas & Boren",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [2,5]
+    },
+    {
+      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-006",
+      "Store Name": "Fremont",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [1,3,5]
+    },
+    {
+      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-007",
+      "Store Name": "Bellevue City Center",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [1,3]
+    },
+    {
+      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-008",
+      "Store Name": "One Union",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [2,5]
+    },
+    {
+      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-011",
+      "Store Name": "Bellevue NE 4th",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [1,3,5]
+    },
+    {
+      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-013",
+      "Store Name": "SeaTac",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [1,3,5]
+    },
+    {
+      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-015",
+      "Store Name": "Columbia Center",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [2,5]
+    },
+    {
+      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+      "Store Code": "WA-016",
+      "Store Name": "Kirkland Urban",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [1,3]
+    },
+    {
+      "Store GUID": "123346B6-01F8-EC11-BB3D-0022480844F5",
+      "Store Code": "WA-999",
+      "Store Name": "Test Location",
+      "Commissary ID": "522200000",
+      "DeliveryDates": [2,4]
+    }
+  ]

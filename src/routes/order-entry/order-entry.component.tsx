@@ -2,6 +2,7 @@ import { ChangeEvent, useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 import {
+  selectEnabledProducts,
   selectProducts,
   selectProductsIsLoading,
 } from '../../store/products/products.selector'
@@ -12,6 +13,7 @@ import { useNavigate } from 'react-router-dom'
 import ProductTableRow from '../../components/product/product-table.component'
 import { Alert, Container, Row, Table, Col, InputGroup, Form, Button } from 'react-bootstrap'
 import { addCollectionAndDocuments } from '../../utils/firebase/firebase.utils'
+import { fetchCustomersStart } from '../../store/customers/customers.action'
 
 // let items = require('../../data/items.json')
 
@@ -25,7 +27,7 @@ const OrderEntry = () => {
     dispatch(fetchProductsStart())
   }, [])
 
-  const items = useSelector(selectProducts)
+  const items = useSelector(selectEnabledProducts)
   const [filteredItems, setFilteredItems] = useState(items)
   const isLoading = useSelector(selectProductsIsLoading)
 

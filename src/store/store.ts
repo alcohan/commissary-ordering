@@ -28,7 +28,7 @@ const persistConfig: ExtendedPersistConfig = {
     key: 'root',
     storage: storage, //can just be storage,
     whitelist: [
-        'cart'
+        'cart', 'user'
     ]
 }
 

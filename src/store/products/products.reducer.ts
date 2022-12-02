@@ -5,6 +5,9 @@ import {
     fetchProductsStart,
     fetchProductsSuccess,
     fetchProductsFailed,
+    updateProductStart,
+    updateProductSuccess,
+    updateProductFailed,
   } from "./products.action";
 
 export type ProductsState = {
@@ -44,6 +47,15 @@ export const productsReducer = (
     }
     if(fetchProductsFailed.match(action)) {
     return { ...state, error: action.payload, isLoading: false };
+    }
+    if(updateProductStart.match(action)){
+        return{...state, isLoading: true};
+    }
+    if(updateProductSuccess.match(action)) {
+        return{...state, isLoading: false};
+    }
+    if(updateProductFailed.match(action)) {
+        return{ ...state, error:action.payload, isLoading:false};
     }
     return state;
 }
