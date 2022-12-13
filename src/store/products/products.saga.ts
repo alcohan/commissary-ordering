@@ -1,6 +1,6 @@
 import { takeLatest, all, call, put } from 'typed-redux-saga';
 
-import { getProductsAndDocuments, updateProductDocument} from '../../utils/firebase/firebase.utils';
+import { getFirebaseDocuments, updateProductDocument} from '../../utils/firebase/firebase.utils';
 
 import { fetchProductsSuccess, fetchProductsFailed, updateProductFailed, updateProductSuccess, UpdateProductStart, fetchProductsStart } from './products.action';
 
@@ -14,7 +14,7 @@ import { Product, PRODUCTS_ACTION_TYPES } from './products.types';
 
 export function* fetchProductsAsync() {
     try {
-        const productsArray = yield* call( getProductsAndDocuments, "products" );
+        const productsArray = yield* call( getFirebaseDocuments<Product>, "products" );
         yield* put ( fetchProductsSuccess( productsArray ));
     } catch (error) {
         yield* put ( fetchProductsFailed( error as Error ));
