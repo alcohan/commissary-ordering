@@ -12,6 +12,11 @@ export const selectCustomers = createSelector(
     (customersSlice) => {return customersSlice.customers}
 )
 
+export const selectCommissaries = createSelector(
+    [selectCustomersReducer],
+    (customersSlice) => {return customersSlice.commissaries}
+)
+
 export const selectCustomersIsLoading = createSelector(
     [selectCustomersReducer],
     (customersSlice) => customersSlice.isLoading
