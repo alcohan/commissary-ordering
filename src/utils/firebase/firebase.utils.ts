@@ -22,6 +22,7 @@ import {
   getDocs,
   QueryDocumentSnapshot,
 } from "firebase/firestore";
+import { Commissary, Customer } from "../../store/customers/customers.types";
 import { Product } from "../../store/products/products.types";
 
 // import { Category } from "../../store/categories/category.types";
@@ -53,7 +54,7 @@ export const signInWithGoogleRedirect = () =>
 export const db = getFirestore();
 
 export type ObjectToAdd = {
-  "Item GUID": string;
+  "ID": string;
 };
 
 // typically this wouldn't be front-end.
@@ -65,7 +66,7 @@ export const addCollectionAndDocuments = async <T extends ObjectToAdd>(
   const batch = writeBatch(db);
 
   objectsToAdd.forEach((object) => {
-    const docRef = doc(collectionReference, object["Item GUID"]);
+    const docRef = doc(collectionReference, object["ID"]);
     batch.set(docRef, object);
   });
   await batch.commit();
@@ -84,16 +85,29 @@ export const updateProductDocument = async (
   await batch.commit();
   console.log("done");
 }
+export const updateCustomerDocument = async (
+  collectionKey: string, 
+  customerToUpdate:Customer
+  ) => {
+  console.log("updating customer", customerToUpdate);
+  const collectionRef = collection(db,collectionKey);
+  const batch = writeBatch(db);
+  const docRef = doc(collectionRef,customerToUpdate["Store GUID"]);
+  batch.set(docRef,customerToUpdate);
+  await batch.commit();
+  console.log("done");
+}
 
-export const getProductsAndDocuments = async (
+
+export const getFirebaseDocuments = async <ExpectedType>(
   collectionName: string
-): Promise<Product[]> => {
+): Promise<ExpectedType[]> => {
   const collectionRef = collection(db, collectionName);
   const q = query(collectionRef);
 
   const querySnapshot = await getDocs(q);
   return querySnapshot.docs.map(
-    (docSnapshot) => docSnapshot.data() as Product
+    (docSnapshot) => docSnapshot.data() as ExpectedType
   );
 };
 
