@@ -1,9 +1,23 @@
+import { queryByDisplayValue } from "@testing-library/react";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react"
-import { Badge, ListGroup, Row, Col, Container, Form, Button } from "react-bootstrap";
+import { Badge, ListGroup, Row, Col, Container, Form, Button, ToggleButton, InputGroup } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux"
 import { fetchCustomersStart, updateCustomerStart } from "../../store/customers/customers.action";
 import { selectCustomers, selectCommissaries } from "../../store/customers/customers.selector"
 import { Customer } from "../../store/customers/customers.types";
+
+//FIXME there has got to be a better way to do this
+const days = ['sun','mon','tue','wed','thu','fri','sat'];
+type d = {[index:string]:string}
+const daysOfWeek:d = {
+    "sun": 'Sunday', 
+    "mon": 'Monday',
+    "tue": 'Tuesday',
+    "wed": 'Wednesday',
+    "thu": 'Thursday',
+    "fri": 'Friday',
+    "sat": 'Saturday',
+}
 
 const EditStores = () => {
     const stores = useSelector(selectCustomers);
@@ -23,7 +37,6 @@ const EditStores = () => {
     }
 
     const handleFormChange = (event: ChangeEvent<HTMLInputElement>) => {
-        // console.log(event.target)
         const { name, value, type } = event.target;
 
         let valueToReplace;
@@ -35,7 +48,6 @@ const EditStores = () => {
 
         const newValues = {...selectedStore, [name]:valueToReplace} as Customer;
         setSelectedStore(newValues);
-        // console.log(selectedStore)
     }
 
     const checkForChanges = () => {
@@ -45,22 +57,29 @@ const EditStores = () => {
 
     const formSubmitHandler = (e:FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // console.log(selectedStore)
         dispatch(updateCustomerStart(selectedStore));
     }
+
+    const handleDayPickerToggle = (e: ChangeEvent<HTMLInputElement>) => {
+        const { id, checked } = e.target;
+        const newValues = {...selectedStore, "DeliveryDates":{...selectedStore.DeliveryDates, [id]:checked}} as Customer;
+        setSelectedStore(newValues)
+    }
+
 
     return (
         <Container fluid>
             <Row>
                 <Col className="col-12 col-md-4">
                     <ListGroup>
-                    {stores.map(store => 
+                    {stores
+                        .sort((a,b) => {return a["Store Code"] > b["Store Code"] ? 1:-1})
+                        .map(store => 
                     <ListGroup.Item 
                         className="d-flex justify-content-between align-items-start"
                         key={store["Store GUID"]}
-                        // variant={store.Enabled?"primary":"secondary"}
+                        variant="primary"
                         active={checkIsActive(store)}
-                        // disabled={!item.Enabled}
                         action onClick={() => setSelectedStore(store)}
                         >
                         {store["Store Name"]}
@@ -89,11 +108,20 @@ const EditStores = () => {
                                     />
 
                                 <Form.Text>Delivery Dates</Form.Text>
-                                <Form.Control 
-                                    onChange={handleFormChange}
-                                    name="DeliveryDates"
-                                    value={selectedStore["DeliveryDates"].toString()}
-                                    />
+                                <InputGroup className="text-center gap-3">                                  
+                                    {days.map((day) => (
+                                        <Form.Group>
+                                            <Form.Check 
+                                                key={day}
+                                                onChange={handleDayPickerToggle}
+                                                checked={selectedStore.DeliveryDates[day]} 
+                                                id={day}>
+                                            </Form.Check>
+                                            <Form.Label for={day}>{daysOfWeek[day]}</Form.Label>
+                                        </Form.Group>
+                                    ))}
+                                </InputGroup>
+    
                                 <Form.Text>Commissary</Form.Text>
                                 <Form.Control 
                                     onChange={handleFormChange}

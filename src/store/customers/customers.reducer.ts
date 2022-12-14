@@ -18,14 +18,6 @@ export type CustomersState = {
     readonly error: Error | null;
 }
 
-const TEST_CUSTOMER: Customer = {
-    "Store GUID": "B9A15BDB-4773-EC11-8943-000D3A35254B",
-    "Store Code": "GB-007",
-    "Store Name": "Hassalo",
-    "Commissary ID": "522200001",
-    "DeliveryDates": [2, 5]
-}
-
 export const CUSTOMERS_INITIAL_STATE = {
     customers: [],
     commissaries: [],

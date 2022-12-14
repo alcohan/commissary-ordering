@@ -72,7 +72,6 @@ const EditItems = () => {
                                         key={item["Item GUID"]}
                                         variant={item.Enabled?"primary":"secondary"}
                                         active={checkIsActive(item)}
-                                        // disabled={!item.Enabled}
                                         action onClick={() => setSelectedItem(item)}
                                         >
                                         {item["Item Name"]}

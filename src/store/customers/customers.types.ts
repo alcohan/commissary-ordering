@@ -15,10 +15,14 @@ export type Commissary = {
     "Name": string
 }
 
+type Dates = {
+    [index: string] : boolean
+}
+
 export type Customer = {
     "Store GUID": string,
     "Store Code": string,
     "Store Name": string,
     "Commissary ID": string,
-    "DeliveryDates": number[]
+    "DeliveryDates": Dates,
 }
