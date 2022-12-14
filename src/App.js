@@ -8,6 +8,7 @@ import OrderEntry from './routes/order-entry/order-entry.component';
 import Checkout from './routes/checkout/checkout.component';
 import EditItems from './routes/edit-items/edit-items.component';
 import EditStores from './routes/edit-stores/edit-stores.component';
+import EditOrders from './routes/view-orders/view-orders.component';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='checkout' element={<Checkout />} />
         <Route path='items' element={<EditItems />} />
         <Route path='stores' element={<EditStores />} />
+        <Route path='orders' element={<EditOrders />} />
       </Route>
     </Routes>
   );

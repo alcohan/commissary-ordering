@@ -41,6 +41,7 @@ const Navigation = () => {
               <LinkContainer to="/checkout"><Nav.Link>Cart</Nav.Link></LinkContainer>
               <LinkContainer to="/items"><Nav.Link>Edit Items</Nav.Link></LinkContainer>
               <LinkContainer to="/stores"><Nav.Link>Edit Stores</Nav.Link></LinkContainer>
+              <LinkContainer to="/orders"><Nav.Link>View Orders</Nav.Link></LinkContainer>
               {currentUser ? (
                 <LinkContainer to="/"><Nav.Link>Signed in as {currentUser.displayName}</Nav.Link></LinkContainer>
               ):null}
