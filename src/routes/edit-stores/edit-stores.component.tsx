@@ -49,7 +49,6 @@ const EditStores = () => {
         const newValues = {...selectedStore, [name]:valueToReplace} as Customer;
         setSelectedStore(newValues);
     }
-
     const checkForChanges = () => {
         const currentlySelected = stores.find((element) => element["Store GUID"]===selectedStore["Store GUID"])
         return(selectedStore === currentlySelected)
@@ -64,6 +63,12 @@ const EditStores = () => {
         const { id, checked } = e.target;
         const newValues = {...selectedStore, "DeliveryDates":{...selectedStore.DeliveryDates, [id]:checked}} as Customer;
         setSelectedStore(newValues)
+    }
+    const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
+        const { value } = event.target;
+
+        const newValues = {...selectedStore, "Commissary ID":value} as Customer;
+        setSelectedStore(newValues);
     }
 
 
@@ -123,12 +128,15 @@ const EditStores = () => {
                                 </InputGroup>
     
                                 <Form.Text>Commissary</Form.Text>
-                                <Form.Control 
-                                    onChange={handleFormChange}
-                                    name="ParentCommissary"
-                                    value={commissaries.find(e => e["ID"] === selectedStore["Commissary ID"])?.Name}
-                                    />
-
+                                <Form.Select 
+                                    value={selectedStore["Commissary ID"]}
+                                    onChange={handleSelectChange}
+                                    >
+                                        <option></option>
+                                        {commissaries.map(commissary => (
+                                            <option value={commissary.ID}>{commissary.Code} {commissary.Name}</option>
+                                        ))}
+                                </Form.Select>
                                 <Form.Text>GUID</Form.Text>
                                 <Form.Control disabled
                                     value={selectedStore["Store GUID"]}
