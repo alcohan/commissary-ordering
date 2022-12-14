@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { fetchOrdersStart, updateOrderStart } from "../../store/orders/orders.action";
 import { selectOrders } from "../../store/orders/orders.selector"
 import { Order } from "../../store/orders/orders.types";
+import OrderContentRow from "./order-content.component";
 
 
 const EditOrders = () => {
@@ -73,17 +74,54 @@ const EditOrders = () => {
                             <Form
                                 onSubmit={formSubmitHandler}>
                                     
-                                <Form.Text>Name</Form.Text>
+                                <Form.Text>Order ID</Form.Text>
                                 <Form.Control 
                                     onChange={handleFormChange} 
                                     name="Order ID"
                                     value={selectedOrder["Order ID"]} 
                                 />
                                 
+                                <Form.Text>Store</Form.Text>
+                                <Form.Control 
+                                    onChange={handleFormChange} 
+                                    name="Store"
+                                    value={selectedOrder["Store"]} 
+                                />
+                                
+                                <Form.Text>Date</Form.Text>
+                                <Form.Control 
+                                    onChange={handleFormChange} 
+                                    name="Order Date"
+                                    value={selectedOrder["Order Date"].toString()} 
+                                />
+                                
+                                <Form.Text>Subtotal</Form.Text>
+                                <Form.Control 
+                                    onChange={handleFormChange} 
+                                    name="Subtotal"
+                                    value={selectedOrder["Subtotal"]} 
+                                />
+                                
+                                <Form.Text>Comments</Form.Text>
+                                <Form.Control 
+                                    onChange={handleFormChange} 
+                                    name="Comment"
+                                    value={selectedOrder["Comment"]} 
+                                />
+                                
                                 <Form.Text>GUID</Form.Text>
                                 <Form.Control disabled
                                     value={selectedOrder["Order GUID"]}
                                 />
+                                
+                                <Form.Text>Order Contents</Form.Text>
+                                <Form.Group>
+                                    {selectedOrder.Contents.map(
+                                        lineItem => (
+                                        <OrderContentRow key={lineItem["Item GUID"]} lineItem={lineItem}/>
+                                    ))}
+                                </Form.Group>
+                                
                                 <Form.Group as={Row}>
                                     <Col className="mt-4 text-end">
                                         <Button type='submit'

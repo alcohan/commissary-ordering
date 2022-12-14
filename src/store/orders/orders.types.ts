@@ -9,7 +9,7 @@ export enum ORDERS_ACTION_TYPES {
 }
 
 export type OrderContent = {
-    // "LineItem GUID": "24EBB24C-351E-ED11-B83E-00224804C844",
+    "LineItem GUID": "24EBB24C-351E-ED11-B83E-00224804C844",
     // "Order ID": "WA00820220818",
     "Item Name": string,
     "Qty Ordered": number,
@@ -18,14 +18,14 @@ export type OrderContent = {
     "Extended Price": number,
     "Item GUID": string,
     // "LinkedItemName": string,
-    // "Order GUID": string
+    "Order GUID": string
 }
 
 export type Order = {
     "Order GUID": string,
     "Order ID": string,
     "Store": string,
-    "Order Date": string,
+    "Order Date": Date,
     "Subtotal": number,
     "Comment": string,
     "Store GUID": string,
