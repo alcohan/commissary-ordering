@@ -14,7 +14,7 @@ const CheckoutCard: FC<CheckoutCardProps> = ({item}) => {
             <CheckoutItem>
                 <span className='qty'>{item["quantity"]}</span>
                 <span className='name'>{item["Item Name"]}</span>
-                <span className='price'>${(item["quantity"] * item["List Price (WA)"]).toFixed(2)}</span>
+                <span className='price'>${(item["quantity"] * item["List Price (WA)"]/100).toFixed(2)}</span>
             </CheckoutItem>
         </>
     )

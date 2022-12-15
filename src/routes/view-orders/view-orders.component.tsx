@@ -99,7 +99,7 @@ const EditOrders = () => {
                                 <Form.Control 
                                     onChange={handleFormChange} 
                                     name="Subtotal"
-                                    value={selectedOrder["Subtotal"]} 
+                                    value={`$ ${(selectedOrder["SubtotalCents"]/100).toLocaleString('en-US',{minimumFractionDigits:2})}`} 
                                 />
                                 
                                 <Form.Text>Comments</Form.Text>
@@ -109,16 +109,11 @@ const EditOrders = () => {
                                     value={selectedOrder["Comment"]} 
                                 />
                                 
-                                <Form.Text>GUID</Form.Text>
-                                <Form.Control disabled
-                                    value={selectedOrder["Order GUID"]}
-                                />
-                                
                                 <Form.Text>Order Contents</Form.Text>
                                 <Form.Group>
                                     {selectedOrder.Contents.map(
                                         lineItem => (
-                                        <OrderContentRow key={lineItem["Item GUID"]} lineItem={lineItem}/>
+                                        <OrderContentRow key={lineItem["LineItem GUID"]} lineItem={lineItem}/>
                                     ))}
                                 </Form.Group>
                                 

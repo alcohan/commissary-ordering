@@ -1,1262 +1,1262 @@
 [
-    {
-      "Order GUID": "00EBB24C-351E-ED11-B83E-00224804C844",
-      "Order ID": "WA00820220818",
-      "Store": "WA-008",
-      "Order Date": "2022-08-18 00:00:00",
-      "Subtotal": "$623.80",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "0189AF7B-7F19-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01320220812",
-      "Store": "WA-013",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$2256.77",
-      "Comment": "Thank you! \nAlso may we get 3 black manager shirts size LG AND 3 size XL. :) - MOMO",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "04CB92E9-011F-ED11-B83E-00224804C844",
-      "Order ID": "WA00320220819",
-      "Store": "WA-003",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$879.73",
-      "Comment": "We need 2 jars of if you have any \nAlso black pepper please <3",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "07E9B6DE-F81E-ED11-B83E-00224804C844",
-      "Order ID": "WA00420220819",
-      "Store": "WA-004",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$1165.83",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "08011CC6-7324-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00520220826",
-      "Store": "WA-005",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$585.38",
-      "Comment": "",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "0A932804-BE1C-ED11-B83E-00224804C844",
-      "Order ID": "WA00820220816",
-      "Store": "WA-008",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$615.08",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "0ADD835D-6F1D-ED11-B83E-00224804C844",
-      "Order ID": "WA01120220817",
-      "Store": "WA-011",
-      "Order Date": "2022-08-17 00:00:00",
-      "Subtotal": "$752.74",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "0DB96AB5-2117-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01520220809",
-      "Store": "WA-015",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$184.21",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "101B747C-2910-ED11-B83D-000D3A318819",
-      "Order ID": "OR00220220802",
-      "Store": "OR-002",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$690.42",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "126636EE-E922-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00320220824",
-      "Store": "WA-003",
-      "Order Date": "2022-08-24 00:00:00",
-      "Subtotal": "$607.54",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "17F79204-DF1B-ED11-B83E-00224804C844",
-      "Order ID": "WA00320220815",
-      "Store": "WA-003",
-      "Order Date": "2022-08-15 00:00:00",
-      "Subtotal": "$872.59",
-      "Comment": "2 jars of capers please",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "1DB1DB20-5B17-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00720220810",
-      "Store": "WA-007",
-      "Order Date": "2022-08-10 00:00:00",
-      "Subtotal": "$153.30",
-      "Comment": "",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "21268686-411E-ED11-B83E-00224804C844",
-      "Order ID": "WA00220220818",
-      "Store": "WA-002",
-      "Order Date": "2022-08-18 00:00:00",
-      "Subtotal": "$6.00",
-      "Comment": "",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "216AB09D-5A21-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01120220822",
-      "Store": "WA-011",
-      "Order Date": "2022-08-22 00:00:00",
-      "Subtotal": "$794.55",
-      "Comment": "capers thanks",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "21DB52CA-DC26-ED11-9DB1-00224803F129",
-      "Order ID": "WA00320220829",
-      "Store": "WA-003",
-      "Order Date": "2022-08-29 00:00:00",
-      "Subtotal": "$895.13",
-      "Comment": "I need both Avery labels for salad bar items and individual salads ( circle and regular)",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "224624E6-3413-ED11-B83D-000D3A318819",
-      "Order ID": "WA00820220804",
-      "Store": "WA-008",
-      "Order Date": "2022-08-04 00:00:00",
-      "Subtotal": "$315.94",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "281C7251-9A11-ED11-B83D-000D3A318819",
-      "Order ID": "WA01520220802",
-      "Store": "WA-015",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$348.58",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "2A4DB826-4725-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01620220829",
-      "Store": "WA-016",
-      "Order Date": "2022-08-29 00:00:00",
-      "Subtotal": "$409.95",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "2C4CB90B-E317-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01520220809",
-      "Store": "WA-015",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$154.36",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "2D087B4D-BF18-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01520220811",
-      "Store": "WA-015",
-      "Order Date": "2022-08-11 00:00:00",
-      "Subtotal": "$509.48",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "2D6BDBCE-FE13-ED11-B83D-000D3A318819",
-      "Order ID": "OR00220220805",
-      "Store": "OR-002",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$1133.67",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "2D8AAD1C-ED26-ED11-9DB1-00224803F72F",
-      "Order ID": "WA01120220829",
-      "Store": "WA-011",
-      "Order Date": "2022-08-29 00:00:00",
-      "Subtotal": "$895.86",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "3348C3BE-FF13-ED11-B83D-000D3A318819",
-      "Order ID": "WA01120220805",
-      "Store": "WA-011",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$857.99",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "34C45BAD-6E1A-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00720220815",
-      "Store": "WA-007",
-      "Order Date": "2022-08-15 00:00:00",
-      "Subtotal": "$64.60",
-      "Comment": "Late notice because I just recieved a 1k catering order. Also need 4 PRO that did not load onto the page.",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "3AF2C91F-6E12-ED11-B83D-000D3A318819",
-      "Order ID": "WA01120220803",
-      "Store": "WA-011",
-      "Order Date": "2022-08-03 00:00:00",
-      "Subtotal": "$785.80",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "3BEA738C-DB10-ED11-B83D-000D3A318819",
-      "Order ID": "WA01320220801",
-      "Store": "WA-013",
-      "Order Date": "2022-08-01 00:00:00",
-      "Subtotal": "$2310.29",
-      "Comment": "Here is the order! Thank you :)",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "3C369890-8224-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00420220826",
-      "Store": "WA-004",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$1183.40",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "3C9150E0-F213-ED11-B83D-000D3A318819",
-      "Order ID": "WA00520220805",
-      "Store": "WA-005",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$410.59",
-      "Comment": "Ashley wont be in to accept delivery until 7AM,Thank you!!",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "421183BA-701D-ED11-B83E-00224804C844",
-      "Order ID": "WA00720220817",
-      "Store": "WA-007",
-      "Order Date": "2022-08-17 00:00:00",
-      "Subtotal": "$140.26",
-      "Comment": "",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "427FFF06-A81C-ED11-B83E-00224804C844",
-      "Order ID": "WA00220220816",
-      "Store": "WA-002",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$141.97",
-      "Comment": "",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "433481F7-F122-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00620220824",
-      "Store": "WA-006",
-      "Order Date": "2022-08-24 00:00:00",
-      "Subtotal": "$683.58",
-      "Comment": "Thank you Abe!!",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "4358F80E-F022-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01320220824",
-      "Store": "WA-013",
-      "Order Date": "2022-08-24 00:00:00",
-      "Subtotal": "$2049.36",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "448196FB-BC23-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00220220825",
-      "Store": "WA-002",
-      "Order Date": "2022-08-25 00:00:00",
-      "Subtotal": "$233.31",
-      "Comment": "",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "4517E19C-8319-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00420220812",
-      "Store": "WA-004",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$877.57",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "457D5AE5-DC1B-ED11-B83E-00224804C844",
-      "Order ID": "WA01320220815",
-      "Store": "WA-013",
-      "Order Date": "2022-08-15 00:00:00",
-      "Subtotal": "$2077.70",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "472948E9-BB18-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00220220811",
-      "Store": "WA-002",
-      "Order Date": "2022-08-11 00:00:00",
-      "Subtotal": "$224.48",
-      "Comment": "can we get a new stapler? preferrably the small desktop kind? the large we have is constantly jamming itself to the point that we stopped using it. the small one are more reliable.",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "49E6DF3A-D218-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00820220810",
-      "Store": "WA-008",
-      "Order Date": "2022-08-10 00:00:00",
-      "Subtotal": "$15.11",
-      "Comment": "Catering - Last Minute",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "49FCF4CB-F117-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01320220810",
-      "Store": "WA-013",
-      "Order Date": "2022-08-10 00:00:00",
-      "Subtotal": "$2211.51",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "4ECAE973-731D-ED11-B83E-00224804C844",
-      "Order ID": "WA00620220817",
-      "Store": "WA-006",
-      "Order Date": "2022-08-17 00:00:00",
-      "Subtotal": "$850.71",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "503C5C10-7C24-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00320220826",
-      "Store": "WA-003",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$669.66",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "5132E2D8-4D17-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01620220810",
-      "Store": "WA-016",
-      "Order Date": "2022-08-10 00:00:00",
-      "Subtotal": "$350.67",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "5472D959-A711-ED11-B83D-000D3A318819",
-      "Order ID": "WA00220220802",
-      "Store": "WA-002",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$132.18",
-      "Comment": "Thank You",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "55DCC990-C923-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01520220825",
-      "Store": "WA-015",
-      "Order Date": "2022-08-25 00:00:00",
-      "Subtotal": "$142.45",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "565C98BD-9511-ED11-B83D-000D3A318819",
-      "Order ID": "WA00420220802",
-      "Store": "WA-004",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$1245.93",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "568DD90D-791E-ED11-B83E-00224804C844",
-      "Order ID": "OR00220220819",
-      "Store": "OR-002",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$991.94",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "578DD2FA-F317-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00620220810",
-      "Store": "WA-006",
-      "Order Date": "2022-08-10 00:00:00",
-      "Subtotal": "$773.87",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "5868F74D-DB10-ED11-B83D-000D3A318819",
-      "Order ID": "WA00320220801",
-      "Store": "WA-003",
-      "Order Date": "2022-08-01 00:00:00",
-      "Subtotal": "$537.34",
-      "Comment": "Please add a case of 2 ounce portion cups and lids ( to make sure they match)",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "58832702-B318-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00820220811",
-      "Store": "WA-008",
-      "Order Date": "2022-08-11 00:00:00",
-      "Subtotal": "$677.45",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "58BCA5D4-031F-ED11-B83E-00224804C844",
-      "Order ID": "OR00320220819",
-      "Store": "OR-003",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$527.23",
-      "Comment": "",
-      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "5A34D364-7319-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00520220812",
-      "Store": "WA-005",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$384.26",
-      "Comment": "",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "5B1F9D5A-2422-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00820220823",
-      "Store": "WA-008",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$657.10",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "5E9946A4-2A22-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00220220823",
-      "Store": "WA-002",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$367.10",
-      "Comment": "",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "5F9F95AE-761D-ED11-B83E-00224804C844",
-      "Order ID": "WA01620220817",
-      "Store": "WA-016",
-      "Order Date": "2022-08-17 00:00:00",
-      "Subtotal": "$221.63",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "6183C11B-2114-ED11-B83D-000D3A318819",
-      "Order ID": "WA00720220808",
-      "Store": "WA-007",
-      "Order Date": "2022-08-08 00:00:00",
-      "Subtotal": "$619.06",
-      "Comment": "",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "62774717-041F-ED11-B83E-00224804C844",
-      "Order ID": "WA01320220819",
-      "Store": "WA-013",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$2040.62",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "628D37CC-5D16-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01320220808",
-      "Store": "WA-013",
-      "Order Date": "2022-08-08 00:00:00",
-      "Subtotal": "$1962.67",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "62BB8D9D-8424-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00620220825",
-      "Store": "WA-006",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$330.33",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "63ABA27D-6221-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00620220822",
-      "Store": "WA-006",
-      "Order Date": "2022-08-22 00:00:00",
-      "Subtotal": "$868.45",
-      "Comment": "Please add Caperx2",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "645C88DB-6E12-ED11-B83D-000D3A318819",
-      "Order ID": "WA01620220803",
-      "Store": "WA-016",
-      "Order Date": "2022-08-03 00:00:00",
-      "Subtotal": "$484.16",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "66966F1E-EE17-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01120220810",
-      "Store": "WA-011",
-      "Order Date": "2022-08-10 00:00:00",
-      "Subtotal": "$767.05",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "697661B8-9A21-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00320220822",
-      "Store": "WA-003",
-      "Order Date": "2022-08-22 00:00:00",
-      "Subtotal": "$1008.83",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "7035537F-C920-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01620220822",
-      "Store": "WA-016",
-      "Order Date": "2022-08-22 00:00:00",
-      "Subtotal": "$188.69",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "7357E7A2-2217-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00820220809",
-      "Store": "WA-008",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$698.72",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "745A3226-0A1F-ED11-B83E-00224804C844",
-      "Order ID": "WA01620220819",
-      "Store": "WA-016",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$99.36",
-      "Comment": "I need two Med shirts please!",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "7A44E2DD-E418-ED11-B83E-000D3A5BC404",
-      "Order ID": "OR00120220812",
-      "Store": "OR-001",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$365.92",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "7E722DFA-830F-ED11-82E5-000D3A3B362B",
-      "Order ID": "OR00120220802",
-      "Store": "OR-001",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$318.50",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "7EA5DD99-7916-ED11-B83E-000D3A5BC404",
-      "Order ID": "OR00220220809",
-      "Store": "OR-002",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$804.99",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "80D912E6-EA22-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01120220824",
-      "Store": "WA-011",
-      "Order Date": "2022-08-24 00:00:00",
-      "Subtotal": "$698.21",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "81CC754B-E310-ED11-B83D-000D3A318819",
-      "Order ID": "WA00620220801",
-      "Store": "WA-006",
-      "Order Date": "2022-08-01 00:00:00",
-      "Subtotal": "$706.17",
-      "Comment": "Please Add 3 Caper Jars!\n\nThank you!",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "81E94FFC-DC10-ED11-B83D-000D3A318819",
-      "Order ID": "WA01120220801",
-      "Store": "WA-011",
-      "Order Date": "2022-08-01 00:00:00",
-      "Subtotal": "$1100.12",
-      "Comment": "capers thanks",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "82300FAC-BB24-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00720220829",
-      "Store": "WA-007",
-      "Order Date": "2022-08-29 00:00:00",
-      "Subtotal": "$598.59",
-      "Comment": "",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "84227673-011F-ED11-B83E-00224804C844",
-      "Order ID": "WA01120220819",
-      "Store": "WA-011",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$892.02",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "8602C230-E326-ED11-9DB1-00224803F129",
-      "Order ID": "WA00620220829",
-      "Store": "WA-006",
-      "Order Date": "2022-08-29 00:00:00",
-      "Subtotal": "$793.87",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "87E9E545-FA1F-ED11-B83E-00224804C844",
-      "Order ID": "OR00320220823",
-      "Store": "OR-003",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$356.83",
-      "Comment": "",
-      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "8A6F985B-9C1C-ED11-B83E-00224804C844",
-      "Order ID": "WA01520220816",
-      "Store": "WA-015",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$493.50",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "8F4622B8-6913-ED11-B83D-000D3A318819",
-      "Order ID": "OR00120220805",
-      "Store": "OR-001",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$317.71",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "91C225F0-721A-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01620220815",
-      "Store": "WA-016",
-      "Order Date": "2022-08-15 00:00:00",
-      "Subtotal": "$510.65",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "93174E47-3E13-ED11-B83D-000D3A318819",
-      "Order ID": "WA01520220803",
-      "Store": "WA-015",
-      "Order Date": "2022-08-04 00:00:00",
-      "Subtotal": "$838.15",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "941FCEFE-6F1D-ED11-B83E-00224804C844",
-      "Order ID": "WA00320220817",
-      "Store": "WA-003",
-      "Order Date": "2022-08-17 00:00:00",
-      "Subtotal": "$407.25",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "9565298C-9821-ED11-B83E-000D3A5A8318",
-      "Order ID": "OR00220220823",
-      "Store": "OR-002",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$1147.27",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "95FE1C95-5F0F-ED11-82E5-000D3A3B362B",
-      "Order ID": "OR00320220802",
-      "Store": "OR-003",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$428.10",
-      "Comment": "",
-      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "996671C4-A511-ED11-B83D-000D3A318819",
-      "Order ID": "WA00520220802",
-      "Store": "WA-005",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$760.38",
-      "Comment": "",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "9C0470AF-D718-ED11-B83E-000D3A5BC404",
-      "Order ID": "OR00220220812",
-      "Store": "OR-002",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$853.13",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "9CE4212C-581A-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00720220812",
-      "Store": "WA-007",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$11.05",
-      "Comment": "",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "A0441D57-DC1B-ED11-B83E-00224804C844",
-      "Order ID": "WA01120220815",
-      "Store": "WA-011",
-      "Order Date": "2022-08-15 00:00:00",
-      "Subtotal": "$978.24",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "A12FFBFE-3E1E-ED11-B83E-00224804C844",
-      "Order ID": "WA01520220818",
-      "Store": "WA-015",
-      "Order Date": "2022-08-18 00:00:00",
-      "Subtotal": "$592.65",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "A2156E5F-FC1E-ED11-B83E-00224804C844",
-      "Order ID": "WA00520220819",
-      "Store": "WA-005",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$397.88",
-      "Comment": "",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "A253067C-5F21-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01320220822",
-      "Store": "WA-013",
-      "Order Date": "2022-08-22 00:00:00",
-      "Subtotal": "$1919.48",
-      "Comment": "Thank you!",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "A37D055B-F322-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01620220824",
-      "Store": "WA-016",
-      "Order Date": "2022-08-24 00:00:00",
-      "Subtotal": "$393.58",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "A4F46CFE-9F1C-ED11-B83E-00224804C844",
-      "Order ID": "WA00420220816",
-      "Store": "WA-004",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$918.55",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "A8DA9A58-761D-ED11-B83E-00224804C844",
-      "Order ID": "WA01320220817",
-      "Store": "WA-013",
-      "Order Date": "2022-08-17 00:00:00",
-      "Subtotal": "$1747.36",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "A9E55596-A61C-ED11-B83E-00224804C844",
-      "Order ID": "WA00520220816",
-      "Store": "WA-005",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$779.07",
-      "Comment": "bacon please if you still have it.",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "AA54B59A-B315-ED11-B83D-000D3A318819",
-      "Order ID": "WA00620220808",
-      "Store": "WA-006",
-      "Order Date": "2022-08-08 00:00:00",
-      "Subtotal": "$559.02",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "AD1B7019-1822-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00520220823",
-      "Store": "WA-005",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$546.18",
-      "Comment": "",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "AE23D618-3D13-ED11-B83D-000D3A318819",
-      "Order ID": "WA00220220804",
-      "Store": "WA-002",
-      "Order Date": "2022-08-04 00:00:00",
-      "Subtotal": "$140.51",
-      "Comment": "",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "B0A1CA0E-4B13-ED11-B83D-000D3A318819",
-      "Order ID": "OR00320220805",
-      "Store": "OR-003",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$166.46",
-      "Comment": "",
-      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "B101C4B1-6C12-ED11-B83D-000D3A318819",
-      "Order ID": "WA00320220803",
-      "Store": "WA-003",
-      "Order Date": "2022-08-03 00:00:00",
-      "Subtotal": "$563.16",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "B13E9897-4B0F-ED11-82E5-000D3A3B362B",
-      "Order ID": "WA00720220801",
-      "Store": "WA-007",
-      "Order Date": "2022-08-01 00:00:00",
-      "Subtotal": "$558.89",
-      "Comment": "",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "B2128A0C-8F1A-ED11-B83E-000D3A5BC404",
-      "Order ID": "OR00120220816",
-      "Store": "OR-001",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$584.26",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "B837C0E3-7C19-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01120220812",
-      "Store": "WA-011",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$669.46",
-      "Comment": "1 cs capers please",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "B9D0369E-E414-ED11-B83D-000D3A318819",
-      "Order ID": "OR00320220809",
-      "Store": "OR-003",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$273.74",
-      "Comment": "",
-      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "BCD3AFDB-D414-ED11-B83D-000D3A318819",
-      "Order ID": "WA01620220808",
-      "Store": "WA-016",
-      "Order Date": "2022-08-08 00:00:00",
-      "Subtotal": "$173.36",
-      "Comment": "",
-      "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "BD064CF2-B219-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00720220815",
-      "Store": "WA-007",
-      "Order Date": "2022-08-15 00:00:00",
-      "Subtotal": "$781.80",
-      "Comment": "",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "BDCA34C0-A111-ED11-B83D-000D3A318819",
-      "Order ID": "WA00820220802",
-      "Store": "WA-008",
-      "Order Date": "2022-08-02 00:00:00",
-      "Subtotal": "$885.46",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "C9D0870F-1C27-ED11-9DB1-00224803F129",
-      "Order ID": "WA00320220829",
-      "Store": "WA-003",
-      "Order Date": "2022-08-29 00:00:00",
-      "Subtotal": "$25.51",
-      "Comment": "Added another bag- need 2",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "CB74B3A8-0415-ED11-B83D-000D3A318819",
-      "Order ID": "OR00120220809",
-      "Store": "OR-001",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$503.38",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "CB82A9E9-2817-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00420220809",
-      "Store": "WA-004",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$727.88",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "CE894865-0C14-ED11-B83D-000D3A318819",
-      "Order ID": "WA01320220805",
-      "Store": "WA-013",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$3212.84",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "CF098DF8-3717-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00220220809",
-      "Store": "WA-002",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$97.25",
-      "Comment": "",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "CFF54578-FD13-ED11-B83D-000D3A318819",
-      "Order ID": "WA00320220805",
-      "Store": "WA-003",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$948.49",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "D15158C5-8219-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00620220812",
-      "Store": "WA-006",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$528.34",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "D1A3CBC5-7712-ED11-B83D-000D3A318819",
-      "Order ID": "WA01320220803",
-      "Store": "WA-013",
-      "Order Date": "2022-08-03 00:00:00",
-      "Subtotal": "$1965.81",
-      "Comment": "Thank you!",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "D498B27D-751E-ED11-B83E-00224804C844",
-      "Order ID": "OR00120220819",
-      "Store": "OR-001",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$312.99",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "DA977486-F123-ED11-B83E-000D3A5A8318",
-      "Order ID": "OR00120220826",
-      "Store": "OR-001",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$325.94",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "DDBF90BC-B523-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00820220825",
-      "Store": "WA-008",
-      "Order Date": "2022-08-25 00:00:00",
-      "Subtotal": "$728.27",
-      "Comment": "",
-      "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "DDCE4CA6-C51C-ED11-B83E-00224804C844",
-      "Order ID": "OR00320220816",
-      "Store": "OR-003",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$470.23",
-      "Comment": "",
-      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "DE8E412A-FF1F-ED11-B83E-00224804C844",
-      "Order ID": "OR00120220823",
-      "Store": "OR-001",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$911.49",
-      "Comment": "",
-      "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "E364FC75-021F-ED11-B83E-00224804C844",
-      "Order ID": "WA00620220819",
-      "Store": "WA-006",
-      "Order Date": "2022-08-19 00:00:00",
-      "Subtotal": "$537.43",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "E475F0E4-DF1B-ED11-B83E-00224804C844",
-      "Order ID": "WA00620220815",
-      "Store": "WA-006",
-      "Order Date": "2022-08-15 00:00:00",
-      "Subtotal": "$718.76",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "E750FD20-5C16-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01120220808",
-      "Store": "WA-011",
-      "Order Date": "2022-08-08 00:00:00",
-      "Subtotal": "$1084.47",
-      "Comment": "",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "E7856B19-F023-ED11-B83E-000D3A5A8318",
-      "Order ID": "OR00220220826",
-      "Store": "OR-002",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$778.25",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "E81409D5-3F13-ED11-B83D-000D3A318819",
-      "Order ID": "WA00220220804",
-      "Store": "WA-002",
-      "Order Date": "2022-08-04 00:00:00",
-      "Subtotal": "$0.00",
-      "Comment": "",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "E9D1D6BB-6F12-ED11-B83D-000D3A318819",
-      "Order ID": "WA00620220803",
-      "Store": "WA-006",
-      "Order Date": "2022-08-03 00:00:00",
-      "Subtotal": "$345.22",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "EC2CFC2E-0614-ED11-B83D-000D3A318819",
-      "Order ID": "WA00420220805",
-      "Store": "WA-004",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$965.40",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "ECA35B58-DE26-ED11-9DB1-00224803F129",
-      "Order ID": "WA01320220829",
-      "Store": "WA-013",
-      "Order Date": "2022-08-29 00:00:00",
-      "Subtotal": "$2282.13",
-      "Comment": "",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "ECFD973F-2317-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00520220809",
-      "Store": "WA-005",
-      "Order Date": "2022-08-09 00:00:00",
-      "Subtotal": "$626.19",
-      "Comment": "",
-      "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "F0DA7A0E-F017-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00320220810",
-      "Store": "WA-003",
-      "Order Date": "2022-08-10 00:00:00",
-      "Subtotal": "$814.87",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "F261AC50-8524-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01320220826",
-      "Store": "WA-013",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$1859.06",
-      "Comment": "Abe, We also need ascorbic acid.",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "F46DDF7F-5E1A-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA01320220812",
-      "Store": "WA-013",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$252.88",
-      "Comment": "Commissary Add-On",
-      "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "F5004728-2E23-ED11-B83E-000D3A5A8318",
-      "Order ID": "OR00320220826",
-      "Store": "OR-003",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$300.21",
-      "Comment": "",
-      "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "F68CD922-0614-ED11-B83D-000D3A318819",
-      "Order ID": "WA00620220805",
-      "Store": "WA-006",
-      "Order Date": "2022-08-05 00:00:00",
-      "Subtotal": "$585.78",
-      "Comment": "",
-      "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "F6BD4F6F-5B13-ED11-B83D-000D3A318819",
-      "Order ID": "WA00220220804",
-      "Store": "WA-002",
-      "Order Date": "2022-08-04 00:00:00",
-      "Subtotal": "$8.40",
-      "Comment": "Thanks",
-      "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A"
-    },
-    {
-      "Order GUID": "F7542951-D218-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00320220811",
-      "Store": "WA-003",
-      "Order Date": "2022-08-11 00:00:00",
-      "Subtotal": "$16.60",
-      "Comment": "Catering - Last Minute",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "F7653CD3-341F-ED11-B83E-00224804C844",
-      "Order ID": "WA00720220822",
-      "Store": "WA-007",
-      "Order Date": "2022-08-22 00:00:00",
-      "Subtotal": "$531.57",
-      "Comment": "add 4 bandanas, thank you",
-      "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "F78392DE-8519-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00320220812",
-      "Store": "WA-003",
-      "Order Date": "2022-08-12 00:00:00",
-      "Subtotal": "$740.76",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "FB0037BE-3522-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA00420220823",
-      "Store": "WA-004",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$637.49",
-      "Comment": "",
-      "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "FD9DF122-2C22-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01520220823",
-      "Store": "WA-015",
-      "Order Date": "2022-08-23 00:00:00",
-      "Subtotal": "$828.83",
-      "Comment": "",
-      "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "FDB03422-6216-ED11-B83E-000D3A5BC404",
-      "Order ID": "WA00320220808",
-      "Store": "WA-003",
-      "Order Date": "2022-08-08 00:00:00",
-      "Subtotal": "$772.00",
-      "Comment": "",
-      "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8"
-    },
-    {
-      "Order GUID": "FEC5D371-0A1C-ED11-B83E-00224804C844",
-      "Order ID": "OR00220220816",
-      "Store": "OR-002",
-      "Order Date": "2022-08-16 00:00:00",
-      "Subtotal": "$947.60",
-      "Comment": "",
-      "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B"
-    },
-    {
-      "Order GUID": "FF7CFEDC-7F24-ED11-B83E-000D3A5A8318",
-      "Order ID": "WA01120220826",
-      "Store": "WA-011",
-      "Order Date": "2022-08-26 00:00:00",
-      "Subtotal": "$919.59",
-      "Comment": "1 cs capers please",
-      "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B"
-    }
-  ]
+  {
+    "Order GUID": "00EBB24C-351E-ED11-B83E-00224804C844",
+    "Order ID": "WA00820220818",
+    "Store": "WA-008",
+    "Order Date": "8/18/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 62380
+  },
+  {
+    "Order GUID": "0189AF7B-7F19-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01320220812",
+    "Store": "WA-013",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "Thank you! \nAlso may we get 3 black manager shirts size LG AND 3 size XL. :) - MOMO",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 225677
+  },
+  {
+    "Order GUID": "04CB92E9-011F-ED11-B83E-00224804C844",
+    "Order ID": "WA00320220819",
+    "Store": "WA-003",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "We need 2 jars of if you have any \nAlso black pepper please <3",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 87973
+  },
+  {
+    "Order GUID": "07E9B6DE-F81E-ED11-B83E-00224804C844",
+    "Order ID": "WA00420220819",
+    "Store": "WA-004",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 116583
+  },
+  {
+    "Order GUID": "08011CC6-7324-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00520220826",
+    "Store": "WA-005",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 58538
+  },
+  {
+    "Order GUID": "0A932804-BE1C-ED11-B83E-00224804C844",
+    "Order ID": "WA00820220816",
+    "Store": "WA-008",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 61508
+  },
+  {
+    "Order GUID": "0ADD835D-6F1D-ED11-B83E-00224804C844",
+    "Order ID": "WA01120220817",
+    "Store": "WA-011",
+    "Order Date": "8/17/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 75274
+  },
+  {
+    "Order GUID": "0DB96AB5-2117-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01520220809",
+    "Store": "WA-015",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 18421
+  },
+  {
+    "Order GUID": "101B747C-2910-ED11-B83D-000D3A318819",
+    "Order ID": "OR00220220802",
+    "Store": "OR-002",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 69042
+  },
+  {
+    "Order GUID": "126636EE-E922-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00320220824",
+    "Store": "WA-003",
+    "Order Date": "8/24/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 60754
+  },
+  {
+    "Order GUID": "17F79204-DF1B-ED11-B83E-00224804C844",
+    "Order ID": "WA00320220815",
+    "Store": "WA-003",
+    "Order Date": "8/15/2022 0:00",
+    "Comment": "2 jars of capers please",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 87259
+  },
+  {
+    "Order GUID": "1DB1DB20-5B17-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00720220810",
+    "Store": "WA-007",
+    "Order Date": "8/10/2022 0:00",
+    "Comment": "",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 15330
+  },
+  {
+    "Order GUID": "21268686-411E-ED11-B83E-00224804C844",
+    "Order ID": "WA00220220818",
+    "Store": "WA-002",
+    "Order Date": "8/18/2022 0:00",
+    "Comment": "",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 600
+  },
+  {
+    "Order GUID": "216AB09D-5A21-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01120220822",
+    "Store": "WA-011",
+    "Order Date": "8/22/2022 0:00",
+    "Comment": "capers thanks",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 79455
+  },
+  {
+    "Order GUID": "21DB52CA-DC26-ED11-9DB1-00224803F129",
+    "Order ID": "WA00320220829",
+    "Store": "WA-003",
+    "Order Date": "8/29/2022 0:00",
+    "Comment": "I need both Avery labels for salad bar items and individual salads ( circle and regular)",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 89513
+  },
+  {
+    "Order GUID": "224624E6-3413-ED11-B83D-000D3A318819",
+    "Order ID": "WA00820220804",
+    "Store": "WA-008",
+    "Order Date": "8/4/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 31594
+  },
+  {
+    "Order GUID": "281C7251-9A11-ED11-B83D-000D3A318819",
+    "Order ID": "WA01520220802",
+    "Store": "WA-015",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 34858
+  },
+  {
+    "Order GUID": "2A4DB826-4725-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01620220829",
+    "Store": "WA-016",
+    "Order Date": "8/29/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 40995
+  },
+  {
+    "Order GUID": "2C4CB90B-E317-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01520220809",
+    "Store": "WA-015",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 15436
+  },
+  {
+    "Order GUID": "2D087B4D-BF18-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01520220811",
+    "Store": "WA-015",
+    "Order Date": "8/11/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 50948
+  },
+  {
+    "Order GUID": "2D6BDBCE-FE13-ED11-B83D-000D3A318819",
+    "Order ID": "OR00220220805",
+    "Store": "OR-002",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 113367
+  },
+  {
+    "Order GUID": "2D8AAD1C-ED26-ED11-9DB1-00224803F72F",
+    "Order ID": "WA01120220829",
+    "Store": "WA-011",
+    "Order Date": "8/29/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 89586
+  },
+  {
+    "Order GUID": "3348C3BE-FF13-ED11-B83D-000D3A318819",
+    "Order ID": "WA01120220805",
+    "Store": "WA-011",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 85799
+  },
+  {
+    "Order GUID": "34C45BAD-6E1A-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00720220815",
+    "Store": "WA-007",
+    "Order Date": "8/15/2022 0:00",
+    "Comment": "Late notice because I just recieved a 1k catering order. Also need 4 PRO that did not load onto the page.",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 6460
+  },
+  {
+    "Order GUID": "3AF2C91F-6E12-ED11-B83D-000D3A318819",
+    "Order ID": "WA01120220803",
+    "Store": "WA-011",
+    "Order Date": "8/3/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 78580
+  },
+  {
+    "Order GUID": "3BEA738C-DB10-ED11-B83D-000D3A318819",
+    "Order ID": "WA01320220801",
+    "Store": "WA-013",
+    "Order Date": "8/1/2022 0:00",
+    "Comment": "Here is the order! Thank you :)",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 231029
+  },
+  {
+    "Order GUID": "3C369890-8224-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00420220826",
+    "Store": "WA-004",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 118340
+  },
+  {
+    "Order GUID": "3C9150E0-F213-ED11-B83D-000D3A318819",
+    "Order ID": "WA00520220805",
+    "Store": "WA-005",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "Ashley wont be in to accept delivery until 7AM,Thank you!!",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 41059
+  },
+  {
+    "Order GUID": "421183BA-701D-ED11-B83E-00224804C844",
+    "Order ID": "WA00720220817",
+    "Store": "WA-007",
+    "Order Date": "8/17/2022 0:00",
+    "Comment": "",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 14026
+  },
+  {
+    "Order GUID": "427FFF06-A81C-ED11-B83E-00224804C844",
+    "Order ID": "WA00220220816",
+    "Store": "WA-002",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 14197
+  },
+  {
+    "Order GUID": "433481F7-F122-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00620220824",
+    "Store": "WA-006",
+    "Order Date": "8/24/2022 0:00",
+    "Comment": "Thank you Abe!!",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 68358
+  },
+  {
+    "Order GUID": "4358F80E-F022-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01320220824",
+    "Store": "WA-013",
+    "Order Date": "8/24/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 204936
+  },
+  {
+    "Order GUID": "448196FB-BC23-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00220220825",
+    "Store": "WA-002",
+    "Order Date": "8/25/2022 0:00",
+    "Comment": "",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 23331
+  },
+  {
+    "Order GUID": "4517E19C-8319-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00420220812",
+    "Store": "WA-004",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 87757
+  },
+  {
+    "Order GUID": "457D5AE5-DC1B-ED11-B83E-00224804C844",
+    "Order ID": "WA01320220815",
+    "Store": "WA-013",
+    "Order Date": "8/15/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 207770
+  },
+  {
+    "Order GUID": "472948E9-BB18-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00220220811",
+    "Store": "WA-002",
+    "Order Date": "8/11/2022 0:00",
+    "Comment": "can we get a new stapler? preferrably the small desktop kind? the large we have is constantly jamming itself to the point that we stopped using it. the small one are more reliable.",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 22448
+  },
+  {
+    "Order GUID": "49E6DF3A-D218-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00820220810",
+    "Store": "WA-008",
+    "Order Date": "8/10/2022 0:00",
+    "Comment": "Catering - Last Minute",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 1511
+  },
+  {
+    "Order GUID": "49FCF4CB-F117-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01320220810",
+    "Store": "WA-013",
+    "Order Date": "8/10/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 221151
+  },
+  {
+    "Order GUID": "4ECAE973-731D-ED11-B83E-00224804C844",
+    "Order ID": "WA00620220817",
+    "Store": "WA-006",
+    "Order Date": "8/17/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 85071
+  },
+  {
+    "Order GUID": "503C5C10-7C24-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00320220826",
+    "Store": "WA-003",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 66966
+  },
+  {
+    "Order GUID": "5132E2D8-4D17-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01620220810",
+    "Store": "WA-016",
+    "Order Date": "8/10/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 35067
+  },
+  {
+    "Order GUID": "5472D959-A711-ED11-B83D-000D3A318819",
+    "Order ID": "WA00220220802",
+    "Store": "WA-002",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "Thank You",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 13218
+  },
+  {
+    "Order GUID": "55DCC990-C923-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01520220825",
+    "Store": "WA-015",
+    "Order Date": "8/25/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 14245
+  },
+  {
+    "Order GUID": "565C98BD-9511-ED11-B83D-000D3A318819",
+    "Order ID": "WA00420220802",
+    "Store": "WA-004",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 124593
+  },
+  {
+    "Order GUID": "568DD90D-791E-ED11-B83E-00224804C844",
+    "Order ID": "OR00220220819",
+    "Store": "OR-002",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 99194
+  },
+  {
+    "Order GUID": "578DD2FA-F317-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00620220810",
+    "Store": "WA-006",
+    "Order Date": "8/10/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 77387
+  },
+  {
+    "Order GUID": "5868F74D-DB10-ED11-B83D-000D3A318819",
+    "Order ID": "WA00320220801",
+    "Store": "WA-003",
+    "Order Date": "8/1/2022 0:00",
+    "Comment": "Please add a case of 2 ounce portion cups and lids ( to make sure they match)",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 53734
+  },
+  {
+    "Order GUID": "58832702-B318-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00820220811",
+    "Store": "WA-008",
+    "Order Date": "8/11/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 67745
+  },
+  {
+    "Order GUID": "58BCA5D4-031F-ED11-B83E-00224804C844",
+    "Order ID": "OR00320220819",
+    "Store": "OR-003",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 52723
+  },
+  {
+    "Order GUID": "5A34D364-7319-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00520220812",
+    "Store": "WA-005",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 38426
+  },
+  {
+    "Order GUID": "5B1F9D5A-2422-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00820220823",
+    "Store": "WA-008",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 65710
+  },
+  {
+    "Order GUID": "5E9946A4-2A22-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00220220823",
+    "Store": "WA-002",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 36710
+  },
+  {
+    "Order GUID": "5F9F95AE-761D-ED11-B83E-00224804C844",
+    "Order ID": "WA01620220817",
+    "Store": "WA-016",
+    "Order Date": "8/17/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 22163
+  },
+  {
+    "Order GUID": "6183C11B-2114-ED11-B83D-000D3A318819",
+    "Order ID": "WA00720220808",
+    "Store": "WA-007",
+    "Order Date": "8/8/2022 0:00",
+    "Comment": "",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 61906
+  },
+  {
+    "Order GUID": "62774717-041F-ED11-B83E-00224804C844",
+    "Order ID": "WA01320220819",
+    "Store": "WA-013",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 204062
+  },
+  {
+    "Order GUID": "628D37CC-5D16-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01320220808",
+    "Store": "WA-013",
+    "Order Date": "8/8/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 196267
+  },
+  {
+    "Order GUID": "62BB8D9D-8424-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00620220825",
+    "Store": "WA-006",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 33033
+  },
+  {
+    "Order GUID": "63ABA27D-6221-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00620220822",
+    "Store": "WA-006",
+    "Order Date": "8/22/2022 0:00",
+    "Comment": "Please add Caperx2",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 86845
+  },
+  {
+    "Order GUID": "645C88DB-6E12-ED11-B83D-000D3A318819",
+    "Order ID": "WA01620220803",
+    "Store": "WA-016",
+    "Order Date": "8/3/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 48416
+  },
+  {
+    "Order GUID": "66966F1E-EE17-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01120220810",
+    "Store": "WA-011",
+    "Order Date": "8/10/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 76705
+  },
+  {
+    "Order GUID": "697661B8-9A21-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00320220822",
+    "Store": "WA-003",
+    "Order Date": "8/22/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 100883
+  },
+  {
+    "Order GUID": "7035537F-C920-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01620220822",
+    "Store": "WA-016",
+    "Order Date": "8/22/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 18869
+  },
+  {
+    "Order GUID": "7357E7A2-2217-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00820220809",
+    "Store": "WA-008",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 69872
+  },
+  {
+    "Order GUID": "745A3226-0A1F-ED11-B83E-00224804C844",
+    "Order ID": "WA01620220819",
+    "Store": "WA-016",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "I need two Med shirts please!",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 9936
+  },
+  {
+    "Order GUID": "7A44E2DD-E418-ED11-B83E-000D3A5BC404",
+    "Order ID": "OR00120220812",
+    "Store": "OR-001",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 36592
+  },
+  {
+    "Order GUID": "7E722DFA-830F-ED11-82E5-000D3A3B362B",
+    "Order ID": "OR00120220802",
+    "Store": "OR-001",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 31850
+  },
+  {
+    "Order GUID": "7EA5DD99-7916-ED11-B83E-000D3A5BC404",
+    "Order ID": "OR00220220809",
+    "Store": "OR-002",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 80499
+  },
+  {
+    "Order GUID": "80D912E6-EA22-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01120220824",
+    "Store": "WA-011",
+    "Order Date": "8/24/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 69821
+  },
+  {
+    "Order GUID": "81CC754B-E310-ED11-B83D-000D3A318819",
+    "Order ID": "WA00620220801",
+    "Store": "WA-006",
+    "Order Date": "8/1/2022 0:00",
+    "Comment": "Please Add 3 Caper Jars!\n\nThank you!",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 70617
+  },
+  {
+    "Order GUID": "81E94FFC-DC10-ED11-B83D-000D3A318819",
+    "Order ID": "WA01120220801",
+    "Store": "WA-011",
+    "Order Date": "8/1/2022 0:00",
+    "Comment": "capers thanks",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 110012
+  },
+  {
+    "Order GUID": "82300FAC-BB24-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00720220829",
+    "Store": "WA-007",
+    "Order Date": "8/29/2022 0:00",
+    "Comment": "",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 59859
+  },
+  {
+    "Order GUID": "84227673-011F-ED11-B83E-00224804C844",
+    "Order ID": "WA01120220819",
+    "Store": "WA-011",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 89202
+  },
+  {
+    "Order GUID": "8602C230-E326-ED11-9DB1-00224803F129",
+    "Order ID": "WA00620220829",
+    "Store": "WA-006",
+    "Order Date": "8/29/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 79387
+  },
+  {
+    "Order GUID": "87E9E545-FA1F-ED11-B83E-00224804C844",
+    "Order ID": "OR00320220823",
+    "Store": "OR-003",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 35683
+  },
+  {
+    "Order GUID": "8A6F985B-9C1C-ED11-B83E-00224804C844",
+    "Order ID": "WA01520220816",
+    "Store": "WA-015",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 49350
+  },
+  {
+    "Order GUID": "8F4622B8-6913-ED11-B83D-000D3A318819",
+    "Order ID": "OR00120220805",
+    "Store": "OR-001",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 31771
+  },
+  {
+    "Order GUID": "91C225F0-721A-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01620220815",
+    "Store": "WA-016",
+    "Order Date": "8/15/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 51065
+  },
+  {
+    "Order GUID": "93174E47-3E13-ED11-B83D-000D3A318819",
+    "Order ID": "WA01520220803",
+    "Store": "WA-015",
+    "Order Date": "8/4/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 83815
+  },
+  {
+    "Order GUID": "941FCEFE-6F1D-ED11-B83E-00224804C844",
+    "Order ID": "WA00320220817",
+    "Store": "WA-003",
+    "Order Date": "8/17/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 40725
+  },
+  {
+    "Order GUID": "9565298C-9821-ED11-B83E-000D3A5A8318",
+    "Order ID": "OR00220220823",
+    "Store": "OR-002",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 114727
+  },
+  {
+    "Order GUID": "95FE1C95-5F0F-ED11-82E5-000D3A3B362B",
+    "Order ID": "OR00320220802",
+    "Store": "OR-003",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 42810
+  },
+  {
+    "Order GUID": "996671C4-A511-ED11-B83D-000D3A318819",
+    "Order ID": "WA00520220802",
+    "Store": "WA-005",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 76038
+  },
+  {
+    "Order GUID": "9C0470AF-D718-ED11-B83E-000D3A5BC404",
+    "Order ID": "OR00220220812",
+    "Store": "OR-002",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 85313
+  },
+  {
+    "Order GUID": "9CE4212C-581A-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00720220812",
+    "Store": "WA-007",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 1105
+  },
+  {
+    "Order GUID": "A0441D57-DC1B-ED11-B83E-00224804C844",
+    "Order ID": "WA01120220815",
+    "Store": "WA-011",
+    "Order Date": "8/15/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 97824
+  },
+  {
+    "Order GUID": "A12FFBFE-3E1E-ED11-B83E-00224804C844",
+    "Order ID": "WA01520220818",
+    "Store": "WA-015",
+    "Order Date": "8/18/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 59265
+  },
+  {
+    "Order GUID": "A2156E5F-FC1E-ED11-B83E-00224804C844",
+    "Order ID": "WA00520220819",
+    "Store": "WA-005",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 39788
+  },
+  {
+    "Order GUID": "A253067C-5F21-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01320220822",
+    "Store": "WA-013",
+    "Order Date": "8/22/2022 0:00",
+    "Comment": "Thank you!",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 191948
+  },
+  {
+    "Order GUID": "A37D055B-F322-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01620220824",
+    "Store": "WA-016",
+    "Order Date": "8/24/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 39358
+  },
+  {
+    "Order GUID": "A4F46CFE-9F1C-ED11-B83E-00224804C844",
+    "Order ID": "WA00420220816",
+    "Store": "WA-004",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 91855
+  },
+  {
+    "Order GUID": "A8DA9A58-761D-ED11-B83E-00224804C844",
+    "Order ID": "WA01320220817",
+    "Store": "WA-013",
+    "Order Date": "8/17/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 174736
+  },
+  {
+    "Order GUID": "A9E55596-A61C-ED11-B83E-00224804C844",
+    "Order ID": "WA00520220816",
+    "Store": "WA-005",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "bacon please if you still have it.",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 77907
+  },
+  {
+    "Order GUID": "AA54B59A-B315-ED11-B83D-000D3A318819",
+    "Order ID": "WA00620220808",
+    "Store": "WA-006",
+    "Order Date": "8/8/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 55902
+  },
+  {
+    "Order GUID": "AD1B7019-1822-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00520220823",
+    "Store": "WA-005",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 54618
+  },
+  {
+    "Order GUID": "AE23D618-3D13-ED11-B83D-000D3A318819",
+    "Order ID": "WA00220220804",
+    "Store": "WA-002",
+    "Order Date": "8/4/2022 0:00",
+    "Comment": "",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 14051
+  },
+  {
+    "Order GUID": "B0A1CA0E-4B13-ED11-B83D-000D3A318819",
+    "Order ID": "OR00320220805",
+    "Store": "OR-003",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 16646
+  },
+  {
+    "Order GUID": "B101C4B1-6C12-ED11-B83D-000D3A318819",
+    "Order ID": "WA00320220803",
+    "Store": "WA-003",
+    "Order Date": "8/3/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 56316
+  },
+  {
+    "Order GUID": "B13E9897-4B0F-ED11-82E5-000D3A3B362B",
+    "Order ID": "WA00720220801",
+    "Store": "WA-007",
+    "Order Date": "8/1/2022 0:00",
+    "Comment": "",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 55889
+  },
+  {
+    "Order GUID": "B2128A0C-8F1A-ED11-B83E-000D3A5BC404",
+    "Order ID": "OR00120220816",
+    "Store": "OR-001",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 58426
+  },
+  {
+    "Order GUID": "B837C0E3-7C19-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01120220812",
+    "Store": "WA-011",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "1 cs capers please",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 66946
+  },
+  {
+    "Order GUID": "B9D0369E-E414-ED11-B83D-000D3A318819",
+    "Order ID": "OR00320220809",
+    "Store": "OR-003",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 27374
+  },
+  {
+    "Order GUID": "BCD3AFDB-D414-ED11-B83D-000D3A318819",
+    "Order ID": "WA01620220808",
+    "Store": "WA-016",
+    "Order Date": "8/8/2022 0:00",
+    "Comment": "",
+    "Store GUID": "01FE7591-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 17336
+  },
+  {
+    "Order GUID": "BD064CF2-B219-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00720220815",
+    "Store": "WA-007",
+    "Order Date": "8/15/2022 0:00",
+    "Comment": "",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 78180
+  },
+  {
+    "Order GUID": "BDCA34C0-A111-ED11-B83D-000D3A318819",
+    "Order ID": "WA00820220802",
+    "Store": "WA-008",
+    "Order Date": "8/2/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 88546
+  },
+  {
+    "Order GUID": "C9D0870F-1C27-ED11-9DB1-00224803F129",
+    "Order ID": "WA00320220829",
+    "Store": "WA-003",
+    "Order Date": "8/29/2022 0:00",
+    "Comment": "Added another bag- need 2",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 2551
+  },
+  {
+    "Order GUID": "CB74B3A8-0415-ED11-B83D-000D3A318819",
+    "Order ID": "OR00120220809",
+    "Store": "OR-001",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 50338
+  },
+  {
+    "Order GUID": "CB82A9E9-2817-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00420220809",
+    "Store": "WA-004",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 72788
+  },
+  {
+    "Order GUID": "CE894865-0C14-ED11-B83D-000D3A318819",
+    "Order ID": "WA01320220805",
+    "Store": "WA-013",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 321284
+  },
+  {
+    "Order GUID": "CF098DF8-3717-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00220220809",
+    "Store": "WA-002",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 9725
+  },
+  {
+    "Order GUID": "CFF54578-FD13-ED11-B83D-000D3A318819",
+    "Order ID": "WA00320220805",
+    "Store": "WA-003",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 94849
+  },
+  {
+    "Order GUID": "D15158C5-8219-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00620220812",
+    "Store": "WA-006",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 52834
+  },
+  {
+    "Order GUID": "D1A3CBC5-7712-ED11-B83D-000D3A318819",
+    "Order ID": "WA01320220803",
+    "Store": "WA-013",
+    "Order Date": "8/3/2022 0:00",
+    "Comment": "Thank you!",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 196581
+  },
+  {
+    "Order GUID": "D498B27D-751E-ED11-B83E-00224804C844",
+    "Order ID": "OR00120220819",
+    "Store": "OR-001",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 31299
+  },
+  {
+    "Order GUID": "DA977486-F123-ED11-B83E-000D3A5A8318",
+    "Order ID": "OR00120220826",
+    "Store": "OR-001",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 32594
+  },
+  {
+    "Order GUID": "DDBF90BC-B523-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00820220825",
+    "Store": "WA-008",
+    "Order Date": "8/25/2022 0:00",
+    "Comment": "",
+    "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 72827
+  },
+  {
+    "Order GUID": "DDCE4CA6-C51C-ED11-B83E-00224804C844",
+    "Order ID": "OR00320220816",
+    "Store": "OR-003",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 47023
+  },
+  {
+    "Order GUID": "DE8E412A-FF1F-ED11-B83E-00224804C844",
+    "Order ID": "OR00120220823",
+    "Store": "OR-001",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6FFC66E1-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 91149
+  },
+  {
+    "Order GUID": "E364FC75-021F-ED11-B83E-00224804C844",
+    "Order ID": "WA00620220819",
+    "Store": "WA-006",
+    "Order Date": "8/19/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 53743
+  },
+  {
+    "Order GUID": "E475F0E4-DF1B-ED11-B83E-00224804C844",
+    "Order ID": "WA00620220815",
+    "Store": "WA-006",
+    "Order Date": "8/15/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 71876
+  },
+  {
+    "Order GUID": "E750FD20-5C16-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01120220808",
+    "Store": "WA-011",
+    "Order Date": "8/8/2022 0:00",
+    "Comment": "",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 108447
+  },
+  {
+    "Order GUID": "E7856B19-F023-ED11-B83E-000D3A5A8318",
+    "Order ID": "OR00220220826",
+    "Store": "OR-002",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 77825
+  },
+  {
+    "Order GUID": "E81409D5-3F13-ED11-B83D-000D3A318819",
+    "Order ID": "WA00220220804",
+    "Store": "WA-002",
+    "Order Date": "8/4/2022 0:00",
+    "Comment": "",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 0
+  },
+  {
+    "Order GUID": "E9D1D6BB-6F12-ED11-B83D-000D3A318819",
+    "Order ID": "WA00620220803",
+    "Store": "WA-006",
+    "Order Date": "8/3/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 34522
+  },
+  {
+    "Order GUID": "EC2CFC2E-0614-ED11-B83D-000D3A318819",
+    "Order ID": "WA00420220805",
+    "Store": "WA-004",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 96540
+  },
+  {
+    "Order GUID": "ECA35B58-DE26-ED11-9DB1-00224803F129",
+    "Order ID": "WA01320220829",
+    "Store": "WA-013",
+    "Order Date": "8/29/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 228213
+  },
+  {
+    "Order GUID": "ECFD973F-2317-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00520220809",
+    "Store": "WA-005",
+    "Order Date": "8/9/2022 0:00",
+    "Comment": "",
+    "Store GUID": "B8A89A58-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 62619
+  },
+  {
+    "Order GUID": "F0DA7A0E-F017-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00320220810",
+    "Store": "WA-003",
+    "Order Date": "8/10/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 81487
+  },
+  {
+    "Order GUID": "F261AC50-8524-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01320220826",
+    "Store": "WA-013",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "Abe, We also need ascorbic acid.",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 185906
+  },
+  {
+    "Order GUID": "F46DDF7F-5E1A-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA01320220812",
+    "Store": "WA-013",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "Commissary Add-On",
+    "Store GUID": "E3C8AC81-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 25288
+  },
+  {
+    "Order GUID": "F5004728-2E23-ED11-B83E-000D3A5A8318",
+    "Order ID": "OR00320220826",
+    "Store": "OR-003",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E3D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 30021
+  },
+  {
+    "Order GUID": "F68CD922-0614-ED11-B83D-000D3A318819",
+    "Order ID": "WA00620220805",
+    "Store": "WA-006",
+    "Order Date": "8/5/2022 0:00",
+    "Comment": "",
+    "Store GUID": "AC9EC560-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 58578
+  },
+  {
+    "Order GUID": "F6BD4F6F-5B13-ED11-B83D-000D3A318819",
+    "Order ID": "WA00220220804",
+    "Store": "WA-002",
+    "Order Date": "8/4/2022 0:00",
+    "Comment": "Thanks",
+    "Store GUID": "56AB6507-9707-ED11-82E4-000D3A5B0B3A",
+    "SubtotalCents": 840
+  },
+  {
+    "Order GUID": "F7542951-D218-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00320220811",
+    "Store": "WA-003",
+    "Order Date": "8/11/2022 0:00",
+    "Comment": "Catering - Last Minute",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 1660
+  },
+  {
+    "Order GUID": "F7653CD3-341F-ED11-B83E-00224804C844",
+    "Order ID": "WA00720220822",
+    "Store": "WA-007",
+    "Order Date": "8/22/2022 0:00",
+    "Comment": "add 4 bandanas, thank you",
+    "Store GUID": "5BE9096A-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 53157
+  },
+  {
+    "Order GUID": "F78392DE-8519-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00320220812",
+    "Store": "WA-003",
+    "Order Date": "8/12/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 74076
+  },
+  {
+    "Order GUID": "FB0037BE-3522-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA00420220823",
+    "Store": "WA-004",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "D2EC9420-4C6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 63749
+  },
+  {
+    "Order GUID": "FD9DF122-2C22-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01520220823",
+    "Store": "WA-015",
+    "Order Date": "8/23/2022 0:00",
+    "Comment": "",
+    "Store GUID": "63AD2989-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 82883
+  },
+  {
+    "Order GUID": "FDB03422-6216-ED11-B83E-000D3A5BC404",
+    "Order ID": "WA00320220808",
+    "Store": "WA-003",
+    "Order Date": "8/8/2022 0:00",
+    "Comment": "",
+    "Store GUID": "664107F3-4B6F-EC11-8943-000D3A5C40F8",
+    "SubtotalCents": 77200
+  },
+  {
+    "Order GUID": "FEC5D371-0A1C-ED11-B83E-00224804C844",
+    "Order ID": "OR00220220816",
+    "Store": "OR-002",
+    "Order Date": "8/16/2022 0:00",
+    "Comment": "",
+    "Store GUID": "E1D90EEF-4773-EC11-8943-000D3A35254B",
+    "SubtotalCents": 94760
+  },
+  {
+    "Order GUID": "FF7CFEDC-7F24-ED11-B83E-000D3A5A8318",
+    "Order ID": "WA01120220826",
+    "Store": "WA-011",
+    "Order Date": "8/26/2022 0:00",
+    "Comment": "1 cs capers please",
+    "Store GUID": "6D0F7F7B-5F72-EC11-8943-000D3A35254B",
+    "SubtotalCents": 91959
+  }
+]

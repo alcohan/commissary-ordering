@@ -31,7 +31,7 @@ const Checkout = () => {
                     <CheckoutCard key={item["Item GUID"]} item={item} />
                     ))}
             </CheckoutContainer>
-            <div>Total: ${total}</div>
+            <div>Total: ${total/100}</div>
 
             <Form onSubmit={handleSubmit}>
                 <InputGroup>

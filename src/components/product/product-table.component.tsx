@@ -30,7 +30,7 @@ const ProductTableRow: FC<ProductItemProps> = ({item}) => {
     return (
         <Row className="border-bottom align-items-center">
             <Col className="" scope="row" >{item["Item Name"]}</Col>
-            <Col className="col-2" >${item["List Price (WA)"]}</Col>
+            <Col className="col-2" >${(item["List Price (WA)"]/100).toFixed(2)}</Col>
             <Col className="col-2" >{item["Pack Size"]}</Col>
             <Col className="col-1" >{item["Category Code"]}</Col>
             <Col className="col-1" style={{padding:"0"}}> 

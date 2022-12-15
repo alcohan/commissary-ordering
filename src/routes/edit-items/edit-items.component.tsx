@@ -34,6 +34,11 @@ const EditItems = () => {
         setSelectedItem(newValues);
         // console.log(selectedItem)
     }
+    const handleCurrencyChange = (event: ChangeEvent<HTMLInputElement>) => {
+        const { name, value, type } = event.target;
+        const newValues = {...selectedItem, [name]: Number(value)*100 } as Product;
+        setSelectedItem(newValues);
+    }
     const handleToggle = (e: ChangeEvent) => setSelectedItem({...selectedItem,"Enabled":!selectedItem.Enabled});
 
     const checkForChanges = () => {
@@ -54,11 +59,11 @@ const EditItems = () => {
     return (
         <>
             <Container fluid 
-                //style={{height:"", overflow:"auto"}}
+                // style={{height:"", overflow:"auto"}}
                 >
                 <Row>
                     <Col className="col-12 col-md-4">
-                    <ListGroup>
+                    <ListGroup style={{height: "80vh", overflow:"auto"}}>
                             {
                             items.sort((a, b) =>{
                                 if(a['Sort Order'] === b['Sort Order'])
@@ -137,18 +142,18 @@ const EditItems = () => {
                                     <InputGroup.Text>WA</InputGroup.Text>
                                     <InputGroup.Text>$</InputGroup.Text>
                                     <Form.Control 
-                                        onChange={handleFormChange} 
+                                        onChange={handleCurrencyChange} 
                                         name="List Price (WA)"
                                         type="number"
-                                        value={selectedItem["List Price (WA)"]} 
+                                        value={selectedItem["List Price (WA)"]/100} 
                                     />
                                     <InputGroup.Text>OR</InputGroup.Text>
                                     <InputGroup.Text>$</InputGroup.Text>
                                     <Form.Control 
-                                        onChange={handleFormChange} 
+                                        onChange={handleCurrencyChange} 
                                         name="List Price (OR)"
                                         type="number"
-                                        value={selectedItem["List Price (OR)"]}
+                                        value={selectedItem["List Price (OR)"]/100}
                                     />
                                 </InputGroup>
 

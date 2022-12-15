@@ -3,40 +3,27 @@ import {  } from "../../utils/firebase/firebase.utils";
 import { fetchOrdersFailed, fetchOrdersStart, fetchOrdersSuccess, updateOrderFailed, UpdateOrderStart, updateOrderSuccess } from "./orders.action";
 import { Order, OrderContent, ORDERS_ACTION_TYPES } from "./orders.types";
 
-// const testOrder: Order = {
-//     "Order GUID": "00EBB24C-351E-ED11-B83E-00224804C844",
-//     "Order ID": "WA00820220818",
-//     "Store": "WA-008",
-//     "Order Date": "2022-08-18 00:00:00",
-//     "Subtotal": 623.80,
-//     "Comment": "",
-//     "Store GUID": "8C3A3474-5F72-EC11-8943-000D3A35254B",
-//     "Contents": [{
-//         "Item Name": "Spicy Garlic Carrots",
-//         "Qty Ordered": 2,
-//         "Qty Final": 2,
-//         "Unit Price": 12,
-//         "Extended Price": 24,
-//         "Item GUID": "0AE9F3A6-7780-EC11-8D21-002248028B68",
-//       },
-//       {
-//         "Item Name": "SPGB",
-//         "Qty Ordered": 8,
-//         "Qty Final": 8,
-//         "Unit Price": 12,
-//         "Extended Price": 96,
-//         "Item GUID": "0AE9F3A6-7780-EC11-8D21-002248028B68",
-//       }
-//     ]
-//   }
-
 //manually use local json data
 const getLocalOrdersData = () => {
     let tempOrders = require('../../data/orders.json') as Order[];
     let tempDetails = require('../../data/orderdetails.json') as OrderContent[];
 
-    tempOrders.forEach(thisOrder => thisOrder["Contents"] = tempDetails.filter(thisItem => thisItem["Order GUID"]===thisOrder["Order GUID"]))
-    console.log(tempOrders)
+    // tempDetails.forEach( (thisItem: OrderContent) => {
+    //     thisItem["Unit Price"] = thisItem["Unit Price"]* 100;
+    //     thisItem["Extended Price"] = thisItem["Extended Price"]* 100;
+    // })
+
+    tempOrders.forEach(
+        (thisOrder: Order) => {
+            // shenanigans: get rid of symbols in subtotal to effectively multiply by 100
+            // thisOrder["Subtotal"]= thisOrder["Subtotal"].replace(/[$,\.]+/g,"");
+            thisOrder["Contents"] = tempDetails.filter(
+                thisItem => 
+                    thisItem["Order GUID"]===thisOrder["Order GUID"] );
+            return thisOrder;
+        }
+        )
+
     return tempOrders;
 }
 
