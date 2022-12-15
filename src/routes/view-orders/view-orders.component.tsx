@@ -49,9 +49,9 @@ const EditOrders = () => {
 
     return (
         <Container fluid>
-            <Row>
+            <Row >
                 <Col className="col-12 col-md-4">
-                    <ListGroup>
+                    <ListGroup style={{height:"90vh", overflow:"auto"}}>
                     {orders
                         // .sort((a,b) => {return a["Order ID"] > b["Order ID"] ? 1:-1})
                         .map(order => 
@@ -110,7 +110,7 @@ const EditOrders = () => {
                                 />
                                 
                                 <Form.Text>Order Contents</Form.Text>
-                                <Form.Group>
+                                <Form.Group style={{height:"50vh", overflow: "auto"}}>
                                     {selectedOrder.Contents.map(
                                         lineItem => (
                                         <OrderContentRow key={lineItem["LineItem GUID"]} lineItem={lineItem}/>
