@@ -7,11 +7,11 @@ import { selectOrders } from "../../store/orders/orders.selector"
 import { Order } from "../../store/orders/orders.types";
 import OrderContentRow from "./order-content.component";
 
-
 const EditOrders = () => {
     const orders = useSelector(selectOrders);
     const dispatch = useDispatch();
     const [selectedOrder, setSelectedOrder] = useState({} as Order);
+    // var DatePicker = require("react-bootstrap-date-picker");
 
     useEffect(() => {
         dispatch(fetchOrdersStart())
@@ -91,8 +91,9 @@ const EditOrders = () => {
                                 <Form.Text>Date</Form.Text>
                                 <Form.Control 
                                     onChange={handleFormChange} 
+                                    type="date"
                                     name="Order Date"
-                                    value={selectedOrder["Order Date"].toString()} 
+                                    value={selectedOrder["Order Date"]} 
                                 />
                                 
                                 <Form.Text>Subtotal</Form.Text>

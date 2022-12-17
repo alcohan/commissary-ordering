@@ -25,7 +25,7 @@ export type Order = {
     "Order GUID": string,
     "Order ID": string,
     "Store": string,
-    "Order Date": Date,
+    "Order Date": string,
     "SubtotalCents": number,
     "Comment": string,
     "Store GUID": string,

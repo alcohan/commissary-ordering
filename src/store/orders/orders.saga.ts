@@ -17,6 +17,7 @@ const getLocalOrdersData = () => {
         (thisOrder: Order) => {
             // shenanigans: get rid of symbols in subtotal to effectively multiply by 100
             // thisOrder["Subtotal"]= thisOrder["Subtotal"].replace(/[$,\.]+/g,"");
+            thisOrder["Order Date"] = new Date(thisOrder["Order Date"]).toISOString();
             thisOrder["Contents"] = tempDetails.filter(
                 thisItem => 
                     thisItem["Order GUID"]===thisOrder["Order GUID"] );
